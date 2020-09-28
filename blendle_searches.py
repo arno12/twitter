@@ -34,7 +34,7 @@ if __name__ == '__main__':
         include_entities=True,
         since=date_since).items(1000))
             
-    locs =  [[tweet.id,tweet.metadata['iso_language_code'],tweet.created_at,tweet.user.screen_name,tweet.text,tweet.user.location,tweet.favorite_count,tweet.retweet_count,datetime.now()] for tweet in tweets]
+    locs = [[tweet.id,tweet.metadata['iso_language_code'],tweet.created_at,tweet.user.screen_name,tweet.text,tweet.user.location,tweet.favorite_count,tweet.retweet_count,datetime.now()] for tweet in tweets]
 
     # create results folder if it doesn't exist yet
     Path('./results').mkdir(parents=True, exist_ok=True)
@@ -44,6 +44,14 @@ if __name__ == '__main__':
         data = locs,
         columns=["id","iso_language_code","created_at","screen_name","text","location","favorite_count","retweet_count","queried_at"])
 
-    output_path = "./results/blendle_searches_incremental.csv"
+    # Load previous data if it exists
+    last_results_path = Path("./results/blendle_searches_incremental.csv")
+    
+    last_results = pd.read_csv("./results") if last_results_path.is_file() else pd.DataFrame(columns=["id"])
+    
+    # Identify what values are in last_results and not in df
+    existing_ids = list(set(last_results.id).intersection(df.id))
+    
+    df = df[~df.id.isin(existing_ids)]
 
-    df.to_csv(output_path, mode='a', header=not Path(output_path).is_file())
+    df.to_csv(last_results_path, mode='a', header=not Path(last_results_path).is_file())
