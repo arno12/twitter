@@ -47,7 +47,7 @@ if __name__ == '__main__':
     # Load previous data if it exists
     last_results_path = Path("./results/blendle_searches_incremental.csv")
     
-    last_results = pd.read_csv("./results") if last_results_path.is_file() else pd.DataFrame(columns=["id"])
+    last_results = pd.read_csv(last_results_path) if last_results_path.is_file() else pd.DataFrame(columns=["id"])
     
     # Identify what values are in last_results and not in df
     existing_ids = list(set(last_results.id).intersection(df.id))
