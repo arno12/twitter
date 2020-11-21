@@ -29,7 +29,7 @@ if __name__ == '__main__':
     date_now = datetime.now().strftime("%Y_%m_%d")
 
     for company in companies:
-        print("Starting with {}...\n".format(company))
+        print("Starting with {}...".format(company))
         query = company + " -filter:retweets"
         tweets = limit_handled(tweepy.Cursor(api.search,
                                              q=query,
@@ -64,4 +64,4 @@ if __name__ == '__main__':
         df.to_csv(last_results_path, mode='a', header=not Path(last_results_path).is_file())
 
         # Write logs
-        print("Done! Wrote a total of {} new rows for {}.\n".format(df.count(), company))
+        print("Done! Wrote a total of {} new row(s) for {}.".format(len(df.index), company))
