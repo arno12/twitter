@@ -6,25 +6,14 @@ library(tidymodels)
 library(tidytext)
 library(stopwords)
 
-blendle <- read_csv("~/self_dev/Python/twitter_api_test/results/blendle_searches_incremental.csv") %>% 
-  mutate(from_owned_account = str_detect(tolower(screen_name),'blendle'),
-         origin = 'Blendle') 
-
-cafeyn <- read_csv("~/self_dev/Python/twitter_api_test/results/cafeyn_searches_incremental.csv") %>% 
-  mutate(from_owned_account = str_detect(tolower(screen_name),'cafeyn'),
-         origin = 'Cafeyn') 
-
-milibris <- read_csv("~/self_dev/Python/twitter_api_test/results/milibris_searches_incremental.csv") %>% 
-  mutate(from_owned_account = str_detect(tolower(screen_name),'milibris'),
-         origin = 'Milibris') 
-
-twitter <- bind_rows(blendle,cafeyn,milibris)
+twitter <- read_csv("~/self_dev/Python/twitter_api_test/results/twitter_searches_incremental.csv") %>% 
+  mutate(from_owned_account = str_detect(tolower(screen_name),'blendle|cafeyn|milibris')) 
 
 twitter %>% 
   group_by(date_clean = lubridate::date(queried_at),
-           origin) %>% 
+           company) %>% 
   count() %>% 
-  ggplot(aes(date_clean,n, fill = origin)) +
+  ggplot(aes(date_clean,n, fill = company)) +
   geom_col()
 
 max_n_tweets <- twitter %>% 
@@ -40,7 +29,7 @@ max_n_tweets <- twitter %>%
 # Create and save a nice viz that we could also post on Twitter
 twitter %>% 
   filter(!from_owned_account) %>% 
-  group_by(screen_name,iso_language_code,origin) %>% 
+  group_by(screen_name,iso_language_code,company) %>% 
   summarize(n_tweets = n_distinct(id),
             favorites = sum(favorite_count),
             retweets = sum(retweet_count),
@@ -53,13 +42,12 @@ twitter %>%
   geom_label_repel(size = 3,
                    alpha = .8) +
   theme_minimal() +
-  scale_x_continuous(breaks=seq(0,max_n_tweets,1),
-                     minor_breaks = seq(1, max_n_tweets, 1)) +
+  scale_x_log10(n.breaks = 10) +
   scale_y_log10(n.breaks = 10,) +
   scale_fill_viridis_d() +
   labs(
-    title = "Most Impactful Tweets about Blendle",
-    subtitle = "A majority of users tweeting about us are Dutch",
+    title = "Most Impactful Tweets about Cafeyn group brands",
+    subtitle = "",
     x = "Tweets about company",
     y = "Favorites and Retweets (Log10)",
     caption = "Source: Twitter | Viz: @NosyOwl",
@@ -70,12 +58,13 @@ twitter %>%
     axis.text = element_text(face = "bold"),
     legend.position = "top"
   ) +
-  facet_grid(~origin)
-  ggsave(
+  facet_grid(~company) 
+
+ggsave(
     "self_dev/Python/twitter_api_test/test.png",
     dpi = 320,
     height = 8,
-    width = 8
+    width = 12
   )
 
 
@@ -98,14 +87,14 @@ twitter_text %>%
 
 # Create a proportion mapping of every word
 frequency <- twitter_text %>% 
-  filter(origin != 'Milibris') %>% 
+  filter(company != 'Milibris') %>% 
   mutate(word = str_extract(words, "[a-z']+")) %>%
-  count(origin, word) %>%
-  group_by(origin) %>%
+  count(company, word) %>%
+  group_by(company) %>%
   mutate(proportion = n / sum(n)) %>% 
   select(-n) %>% 
-  spread(origin, proportion) %>% 
-  gather(origin, proportion, Blendle) %>% 
+  spread(company, proportion) %>% 
+  gather(company, proportion, Blendle) %>% 
   filter(nchar(word)>1)
 
 # plot the prominent words inside one company and not the other
