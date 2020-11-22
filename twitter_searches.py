@@ -107,7 +107,10 @@ if __name__ == "__main__":
 
         # Append new rows to existing result set
         df.to_csv(
-            last_results_path, mode="a", header=not Path(last_results_path).is_file()
+            last_results_path,
+            mode="a",
+            header=not Path(last_results_path).is_file(),
+            index=False,
         )
 
         # Print logs
@@ -123,4 +126,6 @@ if __name__ == "__main__":
             columns=["imported_at", "company", "total_rows"],
         )
 
-        logs.to_csv(logs_path, mode="a", header=not Path(logs_path).is_file())
+        logs.to_csv(
+            logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
+        )
