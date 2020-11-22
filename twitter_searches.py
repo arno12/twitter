@@ -44,6 +44,8 @@ if __name__ == '__main__':
 
         # create results folder if it doesn't exist yet
         Path('./results').mkdir(parents=True, exist_ok=True)
+	# Create logs folder if it doesn't exlist yet
+	Path('./logs').mkdir(parents=True, exist_ok=True) 	
 
         # latest data
         df = pd.DataFrame(
@@ -63,5 +65,12 @@ if __name__ == '__main__':
 
         df.to_csv(last_results_path, mode='a', header=not Path(last_results_path).is_file())
 
-        # Write logs
+        # Print logs
         print("Done! Wrote a total of {} new row(s) for {}.".format(len(df.index), company))
+
+	# Generate logs
+	logs = pd.DataFrame(
+		data=[datetime.now, company, len(df.index)],
+		columns=["imported_at","company","total_rows"])
+
+	
