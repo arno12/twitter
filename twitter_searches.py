@@ -129,3 +129,4 @@ if __name__ == "__main__":
         logs.to_csv(
             logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
         )
+
