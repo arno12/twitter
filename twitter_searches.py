@@ -32,16 +32,16 @@ if __name__ == "__main__":
     Path("./results").mkdir(parents=True, exist_ok=True)
 
     # Load previous data if it exists
-    last_results_path = Path("./results/twitter_searches_incremental.csv")
+    last_results_path = Path("./results/twitter_searches_incremental_test.csv")
+
+    # Create logs folder if it doesn't exist yet
+    Path("./logs").mkdir(parents=True, exist_ok=True)
 
     last_results = (
         pd.read_csv(last_results_path)
         if last_results_path.is_file()
         else pd.DataFrame(columns=["id"])
     )
-
-    # Create logs folder if it doesn't exlist yet
-    Path("./logs").mkdir(parents=True, exist_ok=True)
 
     logs_path = Path("./logs/logs.csv")
 
@@ -52,6 +52,7 @@ if __name__ == "__main__":
     )
 
     for company in companies:
+
         print("Starting with {}...".format(company))
         query = company + " -filter:retweets"
         tweets = limit_handled(
