@@ -2,3 +2,4 @@
 !*.secret
 .env
 .setup
+.Rproj.user
