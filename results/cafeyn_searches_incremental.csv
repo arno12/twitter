@@ -1,3 +1,322 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:2c81b837e39e755f16e76da7a54d839ba41cd4287ce1c7c0c4d3f53734c31d7d
-size 52646
+,id,iso_language_code,created_at,screen_name,text,location,favorite_count,retweet_count,queried_at
+0,1327933007177670656,fr,2020-11-15 11:14:35.000000,cafeyn_fr,#Inde : New Delhi se réveille dans un nuage de pollution généré par les pétards et feux d'artifice qui ont été tiré… https://t.co/q2kH0Ub2Vn,France,0,0,2020-11-15 14:04:59.383096
+1,1327909762814631937,fr,2020-11-15 09:42:13.000000,lessportivesmag,Vous préférez lire le mag #LesSportives sur votre smartphone ? Le mag N°16 sur le sexisme dans les redacs ainsi que… https://t.co/mjKkdm9bsv,,0,1,2020-11-15 14:04:59.383105
+2,1327887737614176256,fr,2020-11-15 08:14:42.000000,Phcourtet,"Le Point : Knock gouverne la France
+ https://t.co/YvjbrTV375",,0,0,2020-11-15 14:04:59.383108
+3,1327885012113494016,fr,2020-11-15 08:03:52.000000,Phcourtet,"Marianne : À la volée !. De l’hôpital public à la gare de triage
+ https://t.co/fnUaxqt0zN",,1,0,2020-11-15 14:04:59.383110
+4,1327883979312279553,fr,2020-11-15 07:59:46.000000,hhuumaaann,"Bonjour, pourquoi les clients Sfr @SFR_SAV @SFR  qui prennent l'option Cafeyn @cafeyn_fr  on accès à une offre hype… https://t.co/qQ019kluyg","Paris, France",0,0,2020-11-15 14:04:59.383112
+5,1327874339182620672,fr,2020-11-15 07:21:27.000000,bendebx,"@InfoAbonneCanal Bj, après déconnexion / re connexion ce Di matin sur mon compte canal (Ok) avec mon Pwd pour en av… https://t.co/VbVlKA9Izm",Bordeaux,0,0,2020-11-15 14:04:59.383121
+6,1327703180730388481,und,2020-11-14 20:01:20.000000,breizh2008,https://t.co/LLEfTbnjOs,France,0,0,2020-11-15 14:04:59.383124
+7,1327701898477133826,fr,2020-11-14 19:56:14.000000,RodJacson,@jabial Ça existe. Ça s’appelle Cafeyn. 3 ans que j’utilise ce service et c’est le top.,Lyon | Tokyo,1,0,2020-11-15 14:04:59.383126
+8,1327681555762991104,fr,2020-11-14 18:35:24.000000,VaeVix,"@jabial Sort of ça existe (pas de la manière la plus pratique, ce n'est pas un single sign on, il faut aller un sit… https://t.co/4IG634k5RO","London, England",0,0,2020-11-15 14:04:59.383129
+9,1327618283026194432,fr,2020-11-14 14:23:59.000000,HenaffMichael,@LelloucheNico @cafeyn_fr @JeromeColombain en+ tu me fait rigolé ta un problème sur sfr @01netTV c'est pas… https://t.co/oRHlxN8bHo,dans thon Q,1,0,2020-11-15 14:04:59.383131
+10,1327617068053704711,fr,2020-11-14 14:19:09.000000,HenaffMichael,@LelloucheNico @cafeyn_fr ti connait rien comme @JeromeColombain et le corse et pp,dans thon Q,0,0,2020-11-15 14:04:59.383133
+11,1327615555159912450,fr,2020-11-14 14:13:08.000000,LelloucheNico,"@HenaffMichael @cafeyn_fr Mdr t’es en forme en ce moment toi, tu sais que la nuance existe ? Une mauvaise expérienc… https://t.co/dKF8r26QdP",France,1,0,2020-11-15 14:04:59.383136
+12,1327612302741401602,fr,2020-11-14 14:00:13.000000,cafeyn_fr,"Après quatre mois de baisse par rapport à l'an dernier, la déforestation en #Amazonie brésilienne est repartie à la… https://t.co/31vAG4OjLU",France,0,1,2020-11-15 14:04:59.383138
+13,1327611492678717443,fr,2020-11-14 13:57:00.000000,HenaffMichael,@LelloucheNico @cafeyn_fr déja pour etres chez sfr faut etres limité,dans thon Q,0,0,2020-11-15 14:04:59.383140
+14,1327611143448371202,fr,2020-11-14 13:55:37.000000,phil99,@LelloucheNico @cafeyn_fr Oui moi j ai perdu tout mes magazines 01net dans ma bibliothèque 🥲,,0,0,2020-11-15 14:04:59.383143
+15,1327588591028084739,fr,2020-11-14 12:26:00.000000,AntoineJunior76,@LelloucheNico @cafeyn_fr Je peux comprendre les goûts et les couleurs ☺️ en tout cas concernant les problèmes de c… https://t.co/Kmf3uPkM3o,"Rouen, France",0,0,2020-11-15 14:04:59.383145
+16,1327587362147344387,fr,2020-11-14 12:21:07.000000,cafeyn_fr,"Pendant ce temps, #Amazon profite du #confinement : l’interdiction de vente de produits « non essentiels » en grand… https://t.co/saiy3H5pXg",France,0,0,2020-11-15 14:04:59.383147
+17,1327586911632887808,fr,2020-11-14 12:19:19.000000,NotKaritoo,@LelloucheNico @cafeyn_fr C’est le lot des anciens sfr presse alors :/,,0,0,2020-11-15 14:04:59.383150
+18,1327586861133520899,fr,2020-11-14 12:19:07.000000,LelloucheNico,@AntoineJunior76 @cafeyn_fr Je le trouve tellement compliqué par rapport à SFR Presse. J’ai l’impression de perdre… https://t.co/SkLdVrVydi,France,1,0,2020-11-15 14:04:59.383152
+19,1327586680887447553,fr,2020-11-14 12:18:24.000000,LelloucheNico,"@NotKaritoo @cafeyn_fr Je n’ai pas accès aux paramètres justement, sur Android, iPad et web c’est pareil, bloqué en anglais.",France,0,0,2020-11-15 14:04:59.383154
+20,1327585985992003595,fr,2020-11-14 12:15:39.000000,AntoineJunior76,@LelloucheNico @cafeyn_fr Personnellement je trouve le service vraiment très agréable.,"Rouen, France",0,0,2020-11-15 14:04:59.383162
+21,1327585490321682432,fr,2020-11-14 12:13:40.000000,NotKaritoo,@LelloucheNico @cafeyn_fr Il faut aller dans les paramètres et changer de pays. Je l’utilise depuis mon forfait Bou… https://t.co/TQOrba55Sq,,0,0,2020-11-15 14:04:59.383164
+22,1327585377503350784,fr,2020-11-14 12:13:13.000000,cafeyn_fr,Assistez à un concert de musique classique depuis votre canapé ! Pour ne pas priver le public de cette représentati… https://t.co/3H0bgdLFVo,France,0,0,2020-11-15 14:04:59.383167
+23,1327584658071154688,fr,2020-11-14 12:10:22.000000,LelloucheNico,"Je regrette de plus en plus SFR Presse. En plus d'être déconnecté tous les jours de mon appli @Cafeyn_fr, je n'ai m… https://t.co/dn2KcDBLVS",France,12,0,2020-11-15 14:04:59.383169
+24,1327571252949741568,fr,2020-11-14 11:17:06.000000,Dieu777,@cafeyn_fr Le préfet,,0,0,2020-11-15 14:04:59.383171
+25,1327571166509363200,nl,2020-11-14 11:16:45.000000,gvanrijn,"@marcoderksen @MartijnJvdL heb sinds het voorjaar weer The Economist, daarnaast Readly en Cafeyn (nieuwe eigenaar B… https://t.co/393z1zbFnM",,0,0,2020-11-15 14:04:59.383174
+26,1327361150095331329,fr,2020-11-13 21:22:14.000000,L_exile988,"@albanlipp Avec aussi un accès à la presse, sportive, nationale , culturelle et people avec Cafeyn",Nouvelle-Calédonie,0,0,2020-11-15 14:04:59.383176
+27,1327294409684242432,fr,2020-11-13 16:57:01.000000,cafeyn_fr,"#Migrants : deux naufrages en une journée font près de 100 morts au large de la #Libye. 
+https://t.co/sA3WtSWUkG https://t.co/JW1lx8W1g5",France,0,0,2020-11-15 14:04:59.383178
+28,1327283568637259778,fr,2020-11-13 16:13:57.000000,bendebx,"@InfoAbonneCanal Tj échec sur l’appli Cafeyn, aussi via le cadre Canal (=) et en prime « mon » « lien (de ce matin)… https://t.co/m9Bk8jzuGQ",Bordeaux,0,0,2020-11-15 14:04:59.383180
+29,1327277731608981505,fr,2020-11-13 15:50:45.000000,fabstbau,@Cdiscount @boulgreg @cafeyn_fr Bonjour. Avez vous résolu le souci avec Cafeyn. Ce dernier vous infirme dans ce dysfonctionnement. Merci,"Mazamet, France",0,0,2020-11-15 14:04:59.383183
+30,1327255804555251717,fr,2020-11-13 14:23:37.000000,Clesdelapresse,Au sommaire des @Clesdelapresse du jour : le bilan #bump2020 @Lesjoursfr @20Minutes @cafeyn_fr @streetpress… https://t.co/KKGsmuoK6T,,0,0,2020-11-15 14:04:59.383185
+31,1327249472133410821,fr,2020-11-13 13:58:27.000000,EditionsMe,"Le Figaro : AC/DC l’aventure continue grâce à Angus Young
+ https://t.co/kQwkdcRPyL","Chartres, France",0,0,2020-11-15 14:04:59.383187
+32,1327246463970254851,fr,2020-11-13 13:46:30.000000,cafeyn_fr,"@JomardN @SFR Bonjour, nous sommes navrés pour ce désagrément.  Veuillez nous contacter à l'adresse email suivante… https://t.co/OzxJS22Zc5",France,0,0,2020-11-15 14:04:59.383190
+33,1327245692574855168,fr,2020-11-13 13:43:26.000000,cafeyn_fr,@cklooz Bonjour et merci pour votre message. Votre suggestion a été transmise à l'équipe concernée. Merci d'avoir p… https://t.co/qbGJnj3NX6,France,0,1,2020-11-15 14:04:59.383192
+34,1327244685887365123,fr,2020-11-13 13:39:26.000000,garcias_jmichel,"Le Parisien Paris : « AC/DC revient de loin »
+ https://t.co/uJCIjMznt7","Hyères, France",0,0,2020-11-15 14:04:59.383194
+35,1327214346242564097,fr,2020-11-13 11:38:53.000000,cafeyn_fr,"La saison 4 de The Crown arrive ce dimanche sur Netflix. 👑
+Cette saison est très attendue grâce à Diana mais un aut… https://t.co/huZPZDILy7",France,0,0,2020-11-15 14:04:59.383197
+36,1327209703022227458,fr,2020-11-13 11:20:26.000000,InfoAbonneCanal,"@bendebx Bonjour, l'accès à Cafeyn se fait désormais via l'application du même nom. Avez-vous tenté en la télécharg… https://t.co/6DZbsuHXNv",France,0,0,2020-11-15 14:04:59.383199
+37,1327205818329128960,fr,2020-11-13 11:05:00.000000,cafeyn_fr,"Cafeyn lance sa plateforme de publishing ! 🎉
+
+Retrouvez tous nos conseils en bien-être, littératie #numérique, info… https://t.co/71M83P41sI",France,1,0,2020-11-15 14:04:59.383202
+38,1327171836015161344,fr,2020-11-13 08:49:58.000000,cafeyn_fr,"La #Martinique obligée de fermer des #écoles à cause des intempéries : glissements de terrain, des #inondations, la… https://t.co/xnLfVIOQFC",France,0,0,2020-11-15 14:04:59.383204
+39,1327169403771887617,fr,2020-11-13 08:40:18.000000,JomardN,Euh @cafeyn_fr ..un peu marre d’être déconnecté tous les jours de vos services et de galèrer ..@sfr,,0,0,2020-11-15 14:04:59.383206
+40,1327169270388756480,fr,2020-11-13 08:39:46.000000,TechRocksFr,Peut-on changer l'organisation de ses équipes tout en respectant la dette technique ? Marine Saffar CTO &amp; COO de… https://t.co/jpey8OCc5Z,France,2,0,2020-11-15 14:04:59.383209
+41,1327153511612755968,fr,2020-11-13 07:37:09.000000,bendebx,"⁦@InfoAbonneCanal⁩ ⁦@cafeyn_fr⁩ Hello Canal, depuis hier matin Pwd non reconnu et impossible d’accéder aux journaux… https://t.co/GuK7XOcDoD",Bordeaux,0,0,2020-11-15 14:04:59.383211
+42,1327127191654715392,fr,2020-11-13 05:52:33.000000,NeplazR,"Society : “Il fallait que ça pète à un moment”
+ https://t.co/j1HzP87isU",Kigali - Villefranche,0,0,2020-11-15 14:04:59.383213
+43,1327005298406662145,fr,2020-11-12 21:48:12.000000,FillonBruno,@cafeyn_fr appli arnaque téléchargements encore enlevés et quand on veut recharger coupe sans arrêt en mettant vous… https://t.co/BehtBND7nF,,0,0,2020-11-15 14:04:59.383215
+44,1326993906345668608,fr,2020-11-12 21:02:56.000000,Freeboxdelta1,"Le service Cafeyn, inclus avec avec la Freebox Delta, vous propose de tester ses nouvelles fonctionnalités et vous  https://t.co/ly6HOAhQbz",,0,0,2020-11-15 14:04:59.383218
+45,1326963141134209024,fr,2020-11-12 19:00:41.000000,cafeyn_fr,"Antitrust : ""Contre #Google, il faut taper fort.""
+Face au quasi-monopole que Google fait peser sur la publicité num… https://t.co/0rnUK7NZs0",France,0,0,2020-11-15 14:04:59.383220
+46,1326934951179202566,fr,2020-11-12 17:08:40.000000,cklooz,Bonjour @cafeyn_fr à quand la présence du journal Rivarol sur votre application ?,LYON,3,0,2020-11-15 14:04:59.383222
+47,1326927192371179521,fr,2020-11-12 16:37:50.000000,JiH_aiR,Ok @free @Freebox @Xavier75 @angelique75008 vous n'êtes pas capable d'effectuer les livraisons rapidement. Mais apr… https://t.co/hpXxPfjJ7A,Besançon,4,2,2020-11-15 14:04:59.383224
+48,1326919901974552579,fr,2020-11-12 16:08:52.000000,mdKob1,"@cafeyn_fr Merci de votre retour!
+
+Je ne savais pas qu'il y avait autant de différence entre les offres.
+Celle de… https://t.co/81efOLjS7a",Quelque part sur le CLOUD...,0,0,2020-11-15 14:04:59.383227
+49,1326919814036803584,fr,2020-11-12 16:08:31.000000,cafeyn_fr,"@N_Ki0 Bonjour, nous vous avons répondu en DM. N'hésitez pas de revenir vers nous si besoin.",France,0,0,2020-11-15 14:04:59.383229
+50,1326918747488194567,fr,2020-11-12 16:04:17.000000,cafeyn_fr,"@mdKob1 Bonjour 
+@mdKob1
+  merci pour votre message. Veuillez trouver ci-dessous les catalogues de chaque offre. 
+-… https://t.co/q83PRQZzEh",France,0,0,2020-11-15 14:04:59.383231
+51,1326902755525582848,fr,2020-11-12 15:00:44.000000,cafeyn_fr,"La société chinoise #ByteDance, propriétaire de #TikTok, a déposé une requête pour contester le décret de Donald… https://t.co/ANN4lf7yUn",France,0,0,2020-11-15 14:04:59.383234
+52,1326865333970374656,fr,2020-11-12 12:32:02.000000,Cdiscount,"Le saviez-vous ❓
+
+✔️ En plus de la livraison gratuite et en express avec Cdiscount à Volonté, vous avez accès à la… https://t.co/56gD0hcsOb",France,27,2,2020-11-15 14:04:59.383236
+53,1326842232276705280,fr,2020-11-12 11:00:14.000000,cafeyn_fr,"L'#Arménie et l'#Azerbaïdjan ont mis fin aux combats, avec un accord qui consacre la victoire militaire des seconds… https://t.co/gO9qM472TW",France,0,0,2020-11-15 14:04:59.383238
+54,1326834680382054401,fr,2020-11-12 10:30:13.000000,cafeyn_fr,"En 2020, la quête du prince charmant qui animait la littérature dite “pour filles” a fait long feu. 
+Pourtant le ge… https://t.co/doviyYOMms",France,0,0,2020-11-15 14:04:59.383240
+55,1326822726632345601,fr,2020-11-12 09:42:43.000000,mdKob1,"@cafeyn_fr bonjour, je possède les deux offres suivantes et souhaite savoir laquelle est la plus étoffée (ou ce son… https://t.co/SxUTEao1LS",Quelque part sur le CLOUD...,0,0,2020-11-15 14:04:59.383243
+56,1326804467921063939,fr,2020-11-12 08:30:10.000000,cafeyn_fr,"Que sait-on de l'impact du #confinement sur la #santé mentale ?
+Les #femmes, les jeunes et les personnes en situati… https://t.co/ByUyCLGhYO",France,0,0,2020-11-15 14:04:59.383245
+57,1326721137326215169,fr,2020-11-12 02:59:03.000000,MamZelleW,"🙋🏾‍♀️ @cafeyn_fr, c’est quand vous voulez, que je répondez accessoirement, tchip!","Marseille, Bouches-du-Rhône",0,0,2020-11-15 14:04:59.383247
+58,1326600670087098369,fr,2020-11-11 19:00:21.000000,cafeyn_fr,"Et si on construisait un train de la paix entre #Séoul et #Paris ?
+Depuis quelques mois, des figures politiques et… https://t.co/qbpVztkcf7",France,0,0,2020-11-15 14:04:59.383250
+59,1326540299875672068,fr,2020-11-11 15:00:28.000000,cafeyn_fr,"Faux sacs #Hermès : 26 personnes, en majorité d’anciens salariés de la maison de #luxe, sont jugées pour avoir fabr… https://t.co/FSVekICZzY",France,0,0,2020-11-15 14:04:59.383252
+60,1326538543578017793,fr,2020-11-11 14:53:29.000000,Charles_Magne80,"@cafeyn_fr hameçonnage? Le 11 nov. 2020 à 08:01, Cafeyn &lt;info@email.cafeyn.co&gt; a écrit : 
+JE RÉACTIVE MA SUBSCRIPTION",,0,0,2020-11-15 14:04:59.383254
+61,1326515246933155840,fr,2020-11-11 13:20:54.000000,sacha_vogue,"Le Figaro : Mediawan pèse un milliard dans la production
+ https://t.co/vkKjBe0JhW",Parigi,0,0,2020-11-15 14:04:59.383262
+62,1326515117668896768,fr,2020-11-11 13:20:24.000000,sacha_vogue,"Le Figaro : Molotov se lance dans la vidéo à la demande gratuite
+ https://t.co/e38SxMDP9U",Parigi,0,0,2020-11-15 14:04:59.383264
+63,1326506531400134657,fr,2020-11-11 12:46:17.000000,ericjaquet,"Aujourd'hui en France : Le plus grand restaurant routier de France autorisé à rouvrir
+Trop de monde, dans cet espac… https://t.co/95NrJ1500X",Pontarlier,0,0,2020-11-15 14:04:59.383267
+64,1326491145980030988,fr,2020-11-11 11:45:08.000000,cafeyn_fr,"Des milliers de personnes ont été évacuées mercredi aux #Philippines, menacées par un troisième #typhon en trois se… https://t.co/M9rdUgYirH",France,0,0,2020-11-15 14:04:59.383269
+65,1326483172410986498,fr,2020-11-11 11:13:27.000000,cafeyn_fr,"Malgré les incertitudes, peut-on réserver dès maintenant ses #vacances de #Noël ?
+Un éventuel assouplissement du… https://t.co/ro1l3Ly7bf",France,0,0,2020-11-15 14:04:59.383271
+66,1326471443614461952,fr,2020-11-11 10:26:51.000000,Antho_Vitorino,🔍 Produire en France magazine par @Certif_OFG est également disponible sur les plateformes numériques @ePressefr et… https://t.co/4pzp9GPxJT,Paris,4,1,2020-11-15 14:04:59.383273
+67,1326449799437152256,fr,2020-11-11 09:00:51.000000,bibsevran,"[RESSOURCES NUMÉRIQUES - #CAFEYN]
+
+Viens découvrir une histoire de Dino avec les Zazous dans l'île au brouillard da… https://t.co/EbOdJL2hK6","Sevran, France",2,0,2020-11-15 14:04:59.383276
+68,1326263826229112833,fr,2020-11-10 20:41:51.000000,Moustoifa,": PSG : ulcéré, Luis Fernandez demande à Leonardo de «respecter» l’histoire du club
+
+https://t.co/FbSDITD684",ile de france,0,0,2020-11-15 14:04:59.383278
+69,1326221004499275777,fr,2020-11-10 17:51:42.000000,MGrossiord,Ca pue ces petits règlements de compte au sein de “la grande famille du cinéma”... Césars : Roman Polanski et Alain… https://t.co/tXyRikZ31g,,4,3,2020-11-15 14:04:59.383280
+70,1326205118090530819,fr,2020-11-10 16:48:34.000000,benoitspeybrouc,"@cafeyn_fr Fuyez, le service client est pitoyable.....",,0,0,2020-11-15 14:04:59.383282
+71,1326203240480956421,fr,2020-11-10 16:41:06.000000,media_hyeres,"📰Consultez vos revues et quotidiens préférés en ligne !
+Avec @cafeyn_fr, accédez à des milliers de journaux et maga… https://t.co/PcOpP7Pruu",Hyères (83400),2,1,2020-11-15 14:04:59.383285
+72,1326200074280558593,fr,2020-11-10 16:28:31.000000,MESTEVE05,"Genevoix, de Gaulle, Mitterrand : Dans cet article Macron semble louer DeGaule et Mitterrand...je trouve qu il ress… https://t.co/9AqBG8sttk","Versailles, France",0,0,2020-11-15 14:04:59.383287
+73,1326195686157787136,fr,2020-11-10 16:11:05.000000,Darky974,@bouyguestelecom y as plus Cafeyn dans votre offre 😢,paname south coast,0,0,2020-11-15 14:04:59.383290
+74,1326178306971099136,en,2020-11-10 15:02:02.000000,f2lemat,"Society : L’inspectrice Harris
+
+https://t.co/ieQGzCE2Qy",Rennes,0,0,2020-11-15 14:04:59.383292
+75,1326165705478303745,fr,2020-11-10 14:11:57.000000,YGallene,"Coronavirus: Le parquet de Paris ouvre quatre informations judiciaires contre X
+ https://t.co/dAxSguGfI4",Marseille,0,0,2020-11-15 14:04:59.383294
+76,1326138612765913088,fr,2020-11-10 12:24:18.000000,MESTEVE05,Covid-19 : l’écologiste Yannick Jadot favorable à un vaccin obligatoire  --》benefice risque pas démontré...hors de… https://t.co/FNjhtrO24D,"Versailles, France",1,0,2020-11-15 14:04:59.383297
+77,1326121878298255361,fr,2020-11-10 11:17:48.000000,LanFred60,@Bensikoo @lavoixdessports @cafeyn_fr Oui c'est possible,"Oise, Picardie",0,0,2020-11-15 14:04:59.383299
+78,1326106842121072640,fr,2020-11-10 10:18:03.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Voilà c'est réglé 😉 merci monsieur j'ai mis ce qu'il faut en favoris,"95 Ile de France, 60 Picardie",1,0,2020-11-15 14:04:59.383301
+79,1326105293303013376,fr,2020-11-10 10:11:54.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Possible avec l'appli l'équipe ? 🤔🤔,"95 Ile de France, 60 Picardie",0,0,2020-11-15 14:04:59.383303
+80,1326104403003256834,fr,2020-11-10 10:08:22.000000,LanFred60,"@Bensikoo @lavoixdessports @cafeyn_fr Sauf que L'Equipe, avec Canal, tu l'as individuellement en te connectant sur le site de L'Equipe","Oise, Picardie",0,0,2020-11-15 14:04:59.383306
+81,1326104267388760065,fr,2020-11-10 10:07:49.000000,cafeyn_fr,"@Jeux_Video_Mag  a pu tester Assassin’s Creed Valhalla pendant un peu plus de 6 heures de jeu ! Alors, l’expérience… https://t.co/Vux5pvcqS7",France,0,0,2020-11-15 14:04:59.383308
+82,1326104171272151041,fr,2020-11-10 10:07:26.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Je viens de passer sur canal effectivement 😉 par contre il me manque l'équipe,"95 Ile de France, 60 Picardie",0,0,2020-11-15 14:04:59.383310
+83,1326104020595970048,fr,2020-11-10 10:06:50.000000,LanFred60,@Bensikoo @lavoixdessports @cafeyn_fr Moi via SFR j'ai arrêté l'option qui coûtait de mémoire 5 €/mois sachant qu'a… https://t.co/xQJkyF7vB6,"Oise, Picardie",0,0,2020-11-15 14:04:59.383312
+84,1326102538907750400,fr,2020-11-10 10:00:57.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Je vais voir via canal si l'offre est supérieure 🙄🙄,"95 Ile de France, 60 Picardie",0,0,2020-11-15 14:04:59.383315
+85,1326102442430369793,it,2020-11-10 10:00:34.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Via sfr 🤔🤔,"95 Ile de France, 60 Picardie",0,0,2020-11-15 14:04:59.383317
+86,1326102383831748608,fr,2020-11-10 10:00:20.000000,cafeyn_fr,"#Reconfinement : le plein d’#activités pour les #enfants avec l’Ecole des loisirs. 
+L’éditeur jeunesse a lancé un s… https://t.co/Ws8f1BSMUN",France,1,0,2020-11-15 14:04:59.383319
+87,1326101107282759680,fr,2020-11-10 09:55:16.000000,LanFred60,@Bensikoo @lavoixdessports @cafeyn_fr Tu passes par quel abonnement ? Moi c'est via Canal+,"Oise, Picardie",0,0,2020-11-15 14:04:59.383321
+88,1326096985368170496,fr,2020-11-10 09:38:53.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Pas abonné 🤔🤔,"95 Ile de France, 60 Picardie",0,0,2020-11-15 14:04:59.383324
+89,1326096933023256576,und,2020-11-10 09:38:41.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr https://t.co/edda4JOuvu,"95 Ile de France, 60 Picardie",0,0,2020-11-15 14:04:59.383326
+90,1326079811761139713,fr,2020-11-10 08:30:39.000000,N_Ki0,"Bonjour @cafeyn_fr.
+Auriez-vous svp des nouvelles de mon petit problème à 400 euros ?
+Je n'ai aucune réponse à mes mails...",,0,0,2020-11-15 14:04:59.383328
+91,1326078064644730886,fr,2020-11-10 08:23:42.000000,Bensikoo,@LanFred60 @lavoixdessports @cafeyn_fr Ya pas la version maritime 🤔🤔 juste les villes de mon côté ?,"95 Ile de France, 60 Picardie",1,0,2020-11-15 14:04:59.383331
+92,1326055198444445696,fr,2020-11-10 06:52:50.000000,Andriantsimbazo,"On est dans une période de malaise sur tous les sujets et pas toujours pour de bonnes raisons. 
+Le Figaro : Yaël BR… https://t.co/HFgElBvpd8",France,5,0,2020-11-15 14:04:59.383333
+93,1326042901479104514,fr,2020-11-10 06:03:59.000000,sblanc66000,"Un oncologue perpignanais dénonce : ""le confinement provoque des retards de diagnostics de cancers""
+ https://t.co/5FufPKBVPw",Perpignan ,53,32,2020-11-15 14:04:59.383335
+94,1325912988595998720,fr,2020-11-09 21:27:45.000000,FillonBruno,"@cafeyn_fr Vous rigolez votre sav est nul il ne se passe rien et cela fait 2 mois que votre appli est une arnaque,… https://t.co/UCvPJOeG4L",,0,0,2020-11-15 14:04:59.383337
+95,1325895817320869888,fr,2020-11-09 20:19:31.000000,RiriMosquito,Bonsoir @SFR_SAV je me retrouve avec l'option Cafeyn comme par magie sans jamais avoir été averti que c'était payan… https://t.co/8PdfQINdT5,Versailles du Languedoc,2,3,2020-11-15 14:04:59.383340
+96,1325879916865392643,en,2020-11-09 19:16:20.000000,krug79,@LoisAlexnorth @cafeyn_uk Have a look at Readly. Thousands of magazines plus Guardian/ Observer .,"Charvet, Paris. ",1,0,2020-11-15 14:04:59.383342
+97,1325835720146214912,fr,2020-11-09 16:20:43.000000,cafeyn_fr,"Seb lance une gamme de produits adaptés aux seniors ou aux personnes handicapées. 
+Baptisée Includéo, cette gamme a… https://t.co/Hub9lJf7Z2",France,1,1,2020-11-15 14:04:59.383344
+98,1325774189731700738,fr,2020-11-09 12:16:13.000000,up_tutur,"@cafeyn_fr Bonjour, un mode sombre est-il prévu ? Si oui pourriez-vous vous me préciser quand celui si sera disponible? Cordialement.","Rouen, France",0,0,2020-11-15 14:04:59.383346
+99,1325761109907869696,fr,2020-11-09 11:24:14.000000,nikaia06200,@neumannlechypre @RakutenFrance @amazon @Cdiscount @cafeyn_fr 120€ pardon en bon cadeaux...ca m'aidera pour les bla… https://t.co/CHwwbiHpeT,nice,0,0,2020-11-15 14:04:59.383349
+100,1325760771264032773,fr,2020-11-09 11:22:53.000000,nikaia06200,"@neumannlechypre Pour information @RakutenFrance  est bien mieux qu' @amazon , j'ai acheté le note20 moins cher que… https://t.co/hYV7mHzmSn",nice,0,0,2020-11-15 14:04:59.827596
+101,1325756899174854657,fr,2020-11-09 11:07:30.000000,LanFred60,@RGfourth @chris_bdl @lavoixdessports @cafeyn_fr Il y a visiblement un souci avec toutes les éditions sauf la maritime,"Oise, Picardie",0,0,2020-11-15 14:04:59.827610
+102,1325755542170636288,fr,2020-11-09 11:02:07.000000,RGfourth,@chris_bdl @LanFred60 @lavoixdessports @cafeyn_fr la semaine derniere je l'ai eu le mardi ou mercredi...,Lens,0,0,2020-11-15 14:04:59.827616
+103,1325752436292792321,fr,2020-11-09 10:49:46.000000,LanFred60,"@Northman62 @chris_bdl @lavoixdessports @cafeyn_fr Faut mettre la version ""maritime"" et il est dispo","Oise, Picardie",1,0,2020-11-15 14:04:59.827622
+104,1325752295796170754,fr,2020-11-09 10:49:13.000000,chris_bdl,@LanFred60 @lavoixdessports @cafeyn_fr @SangOrPicardie merci de l'info ;),"Bruay-la-Buissière, France",1,0,2020-11-15 14:04:59.827642
+105,1325752233028358144,fr,2020-11-09 10:48:58.000000,LanFred60,"@chris_bdl @lavoixdessports @cafeyn_fr Choisis la version ""maritime"" et tu l'auras (merci @SangOrPicardie )","Oise, Picardie",1,0,2020-11-15 14:04:59.827647
+106,1325752168666832896,fr,2020-11-09 10:48:42.000000,Northman62,@LanFred60 @chris_bdl @lavoixdessports @cafeyn_fr Oui. Le mercredi. Ça fait tard tour de même,"Pas-de-Calais, Nord-Pas-de-Cal",1,0,2020-11-15 14:04:59.827653
+107,1325751732622782464,fr,2020-11-09 10:46:58.000000,chris_bdl,@LanFred60 @lavoixdessports @cafeyn_fr patience donc,"Bruay-la-Buissière, France",0,0,2020-11-15 14:04:59.827659
+108,1325751547922354182,fr,2020-11-09 10:46:14.000000,LanFred60,"@SangOrPicardie @lavoixdessports @cafeyn_fr Ah effectivement si je change d'édition, il est dispo en ""maritime"". Merci ;)","Oise, Picardie",1,0,2020-11-15 14:04:59.827664
+109,1325750976578510849,fr,2020-11-09 10:43:58.000000,SangOrPicardie,"@LanFred60 @lavoixdessports @cafeyn_fr Perso je l'ai lu ce matin, uniquement édition maritime dispo","Somme, Picardie",1,0,2020-11-15 14:04:59.827669
+110,1325750881984327680,fr,2020-11-09 10:43:36.000000,LanFred60,@chris_bdl @lavoixdessports @cafeyn_fr Déjà celui de la semaine dernière a été mis en ligne que le lendemain ou surlendemain,"Oise, Picardie",0,0,2020-11-15 14:04:59.827674
+111,1325750773121241088,fr,2020-11-09 10:43:10.000000,chris_bdl,@LanFred60 @lavoixdessports @cafeyn_fr la même...,"Bruay-la-Buissière, France",1,0,2020-11-15 14:04:59.827679
+112,1325750169829306368,fr,2020-11-09 10:40:46.000000,LanFred60,Il n'y a que moi qui n'ait pas l'édition du jour de @lavoixdessports sur @cafeyn_fr ?,"Oise, Picardie",0,0,2020-11-15 14:04:59.827684
+113,1325739521326145536,fr,2020-11-09 09:58:27.000000,charlesjombart,"@cafeyn_fr bonjour, l'édition d'aujourd'hui de La Voix des Sports n'est pas encore disponible, est-ce normal ?",En apesanteur ,0,0,2020-11-15 14:04:59.827689
+114,1325738687179710466,fr,2020-11-09 09:55:08.000000,cafeyn_fr,"Le #Sénat se penche sur le budget de la #Sécu, plombé par le #Covid_19. 
+Le « trou » de la Sécurité sociale, que le… https://t.co/hFeNv4BTaA",France,0,0,2020-11-15 14:04:59.827694
+115,1325724501938745345,fr,2020-11-09 08:58:46.000000,cafeyn_fr,"#Trump : la fin de l’immunité présidentielle. 🇺🇸
+Trafics d’influence, arrangements fiscaux, conflits d’intérêts… Un… https://t.co/8m3MtYw0cj",France,0,0,2020-11-15 14:04:59.827699
+116,1325683404059324417,fr,2020-11-09 06:15:28.000000,Fiona_bonassin,"Libération : Journaliste de «Libé» mis en cause par L’IGPN : une atteinte à la liberté de la presse
+ https://t.co/Lic1lWuF7Q","Paris, France",0,0,2020-11-15 14:04:59.827704
+117,1325552470291066880,fr,2020-11-08 21:35:11.000000,MONIK_MKB,@cafeyn_fr Vs manquez d'élégance Ok mon abonnement fonctionnait jusqu'au 8:il est 22h30!il n'est même pas possible… https://t.co/NmN9faA3pE,,0,0,2020-11-15 14:04:59.827709
+118,1325545216816926722,fr,2020-11-08 21:06:21.000000,rouennes,@Abygae @NChaEnbyae @calamity_jay déso j'avais pas vu passer ta réponse : en effet moi j'ai Cafeyn en plus :/,"Rennes, Rouen",2,0,2020-11-15 14:04:59.827714
+119,1325543262887800834,fr,2020-11-08 20:58:35.000000,Ewistiti,"@Abygae @rouennes @NChaEnbyae @calamity_jay Sur mobile, si j'ai bien compris, il me semble qu'il faille tout d'abor… https://t.co/8wr7sTdGLe",Sous une montagne,2,0,2020-11-15 14:04:59.827718
+120,1325513479688695813,fr,2020-11-08 19:00:15.000000,cafeyn_fr,"À Rome, Laeticia #Hallyday a trouvé les clés du bonheur avec Jalil Lespert qui prépare un #biopic sur Johnny.… https://t.co/oeLWalwkP1",France,0,0,2020-11-15 14:04:59.827723
+121,1325495035064934400,fr,2020-11-08 17:46:57.000000,rouennes,"@Abygae @NChaEnbyae @calamity_jay et quand t'es sur mycanal (sur le site internet surtout, j'ai pas testé sur les a… https://t.co/Xdp8RipknJ","Rennes, Rouen",1,0,2020-11-15 14:04:59.827728
+122,1325462036835348481,it,2020-11-08 15:35:50.000000,fevc92,@cafeyn_fr Ha non merci,"Paris, France",0,0,2020-11-15 14:04:59.827733
+123,1325454940018499585,fr,2020-11-08 15:07:38.000000,rouennes,"Pour les gens qui savaient pas, votre abonnement à mycanal donne accès à quasiment toute la presse française (hors… https://t.co/buH4vJCvqG","Rennes, Rouen",14,1,2020-11-15 14:04:59.827738
+124,1325453064426426378,fr,2020-11-08 15:00:10.000000,cafeyn_fr,"#Confinement : les petits commerces demandent l’interdiction du #BlackFriday, du fait de la concurrence très forte… https://t.co/SQXmJFUUqh",France,0,0,2020-11-15 14:04:59.827743
+125,1325449228261462021,fr,2020-11-08 14:44:56.000000,Juliehueb,@jdoreofficiel @cafeyn_fr Bonjour @jdoreofficiel Merci pour le tweet citant @cafeyn_fr . Si vous souhaitez un abonn… https://t.co/wtGnh2FJvC,"Paris, France",0,0,2020-11-15 14:04:59.827748
+126,1325433351352807424,fr,2020-11-08 13:41:50.000000,_Le_dornien_,@FTarlet @ERROR54685916 Ne parlons même pas quand elle était procureure : https://t.co/Lht4sTCdOG,Royaume de Dorne ,1,0,2020-11-15 14:04:59.827765
+127,1325407736469876737,fr,2020-11-08 12:00:03.000000,cafeyn_fr,"Kamala #Harris, première vice-présidente des Etats-Unis, jamaïcaine par son père, indienne par sa mère, a salué tou… https://t.co/e0MUFJ1CO1",France,1,0,2020-11-15 14:04:59.827771
+128,1325401972665540609,fr,2020-11-08 11:37:09.000000,Andriantsimbazo,"L’euphorie passée, les Français et les Européens ne devraient pas oublier qu’il s’agit des États-Unis d’Amérique 🇺🇸… https://t.co/JFrX5MM8jX",France,5,1,2020-11-15 14:04:59.827776
+129,1325401231959977985,fr,2020-11-08 11:34:13.000000,cafeyn_fr,"🇺🇸Joe #Biden a promis d'être le président qui unifiera les Etats-Unis après quatre ans de division, lors de son pre… https://t.co/NVwZ1t9PK3",France,1,0,2020-11-15 14:04:59.827781
+130,1325387003492446208,fr,2020-11-08 10:37:40.000000,_Le_dornien_,@Khaltibesara @salmatbs @Maria94765113 Faut voir son travail quand elle était procureure : https://t.co/Lht4sTCdOG,Royaume de Dorne ,3,0,2020-11-15 14:04:59.827786
+131,1325380906727694340,fr,2020-11-08 10:13:27.000000,jszanchi,"« Ils viennent jouer avec la réverbération du lieu. Ils ont installé 70 enceintes, des cubes camouflés en hauteur.… https://t.co/4QRGf0JHMX",Paris / Saint-Paul-de-Vence,0,0,2020-11-15 14:04:59.827791
+132,1325368055757672448,fr,2020-11-08 09:22:23.000000,paulinaa_Mac,"Le Parisien Paris : Avocats en diable
+
+https://t.co/qsHlEnOWWJ",Paris et toujours un peu à l'W,0,0,2020-11-15 14:04:59.827796
+133,1325349785856040960,en,2020-11-08 08:09:47.000000,StramaccioniF,Society : L’inspectrice Harris https://t.co/grbx3hzxcB,France,0,0,2020-11-15 14:04:59.827801
+134,1325347638175264770,fr,2020-11-08 08:01:15.000000,_Le_dornien_,@mattcambiasso Se méfier des symboles et surtout par ce qui les portent....C’était une procureure très sévère surto… https://t.co/kjsHRXRNZb,Royaume de Dorne ,1,1,2020-11-15 14:04:59.827805
+135,1325340599751479299,fr,2020-11-08 07:33:17.000000,ProfLeluherne,"Le Journal du Dimanche : Ils sont confinés dans les prés
+ https://t.co/l6QfcLIeGs","Chartres, France",0,0,2020-11-15 14:04:59.827811
+136,1325336210307489792,fr,2020-11-08 07:15:50.000000,g_turbiak,"INTERVIEW de ⁦@nicolas_nordman⁩ dans le ⁦@leJDD⁩ :
+
+👮La police municipale « assurera la tranquillité publique. Elle… https://t.co/qt9zTIDHZS","Paris, France",1,0,2020-11-15 14:04:59.827815
+0,1329483941162704896,fr,2020-11-19 17:57:26.000000,LeTelegramme,"@YvanBo @RugbyClubVannes @usap_officiel @pgroussard @GaspardAugendre Merci à vous, mais le contrat Cafeyn n'autoris… https://t.co/WC2t8JUSF3",Bretagne,0,0,2020-11-19 20:40:52.538940
+1,1329479282276622337,fr,2020-11-19 17:38:56.000000,YvanBo,@LeTelegramme @RugbyClubVannes @usap_officiel @pgroussard @GaspardAugendre En fait je suis abonné par l application Cafeyn via SFR,PARIS,1,0,2020-11-19 20:40:52.538974
+2,1329450600824758274,fr,2020-11-19 15:44:57.000000,cafeyn_fr,"@maellevie Bonjour, désolés pour tous ces désagréments, on vous a envoyé un message en DM.",France,1,0,2020-11-19 20:40:52.538988
+3,1329448797622165514,fr,2020-11-19 15:37:47.000000,Virginiamlk,@maellevie @cafeyn_fr Elle fonctionne bien chez moi en téléchargement justement. Ce serait pas un pb de version de l’app ?,Paris & Lisbon,0,0,2020-11-19 20:40:52.539000
+4,1329447805086294020,fr,2020-11-19 15:33:51.000000,maellevie,"Du coup, si vous avez une bonne appli sérieuse à recommander pour lire la presse sur un ipad, envoyez vos suggestio… https://t.co/4vQQsGE1vU",Paris,0,0,2020-11-19 20:40:52.539012
+5,1329447524382470145,fr,2020-11-19 15:32:44.000000,maellevie,Alors @cafeyn_fr c'est la pire appli. Les anciens numéros sont impossibles à télécharger malgré mes abonnements ann… https://t.co/rphuDRnpZ6,Paris,0,1,2020-11-19 20:40:52.539024
+6,1329441250399965198,fr,2020-11-19 15:07:48.000000,cafeyn_fr,"Doré, Adjani, Soprano, Cabrel… Ces lots qu'offrent les stars pour aider les sinistrés de la tempête #Alex.
+https://t.co/GonGW9UhPP",France,0,0,2020-11-19 20:40:52.539146
+7,1329432961524043785,fr,2020-11-19 14:34:52.000000,Juliehueb,@julienbellver @julienbellver Pourquoi pas le diffuser sur @cafeyn_fr :D !,"Paris, France",0,0,2020-11-19 20:40:52.539239
+8,1329424830958088193,fr,2020-11-19 14:02:33.000000,seblover94800,@julienbellver On va le trouver sur @cafeyn_fr ?,"Villejuif, France",0,0,2020-11-19 20:40:52.539267
+9,1329387964087013377,fr,2020-11-19 11:36:04.000000,JacquesWitt,"@cafeyn_fr bonjour, impossible de lire le Point... abonnement Bouygues sur IPad... les pages sont noires...",France,0,0,2020-11-19 20:40:52.539292
+10,1329360898021076992,fr,2020-11-19 09:48:31.000000,cafeyn_fr,Le Conseil des droits de l’homme de l’ONU met en garde l’exécutif sur « les atteintes importantes aux droits de l’H… https://t.co/KyjaWPZxY8,France,0,0,2020-11-19 20:40:52.539322
+11,1329347031211659264,fr,2020-11-19 08:53:24.000000,leosporting14,@CathCervoni @CB_News Précisons que les hausses successives des tarifs de la presse papier et l'émergence des kiosq… https://t.co/y3GSIn4rBI,,1,0,2020-11-19 20:40:52.539348
+12,1329184309459230720,fr,2020-11-18 22:06:49.000000,Jean_Juan,"Science &amp; Vie : tellement de dieux depuis l’origine des temps, la plupart disparus...
+ https://t.co/Gu4eBytqQH",,0,0,2020-11-19 20:40:52.539386
+13,1329179633338757125,fr,2020-11-18 21:48:14.000000,LValie1,@JeanRob54950229 Les cercles de sinophiles bien connus:https://t.co/ATkI788Sxz #EmmanuelLenain #ChineseBusinessClub… https://t.co/vBRN2QvxlE,,1,0,2020-11-19 20:40:52.539412
+14,1329160239862722562,fr,2020-11-18 20:31:10.000000,lafleurpierrick,"Les Inrockuptibles : A cet ami... Très article sur Bober, par Gerard Lefort, l'un des meilleurs de ceux que j'ai lu… https://t.co/vB94HZnmag",Nantes (comme tout le monde),0,0,2020-11-19 20:40:52.539481
+15,1329148740352028678,fr,2020-11-18 19:45:28.000000,alainlefalher,": Budget : l'UE s'inquiète d'une dérive des déficits en France
+
+https://t.co/KIWLBA3qrb","Limoges, France",0,0,2020-11-19 20:40:52.539495
+16,1329147871627796482,fr,2020-11-18 19:42:01.000000,slimane9595,Je te voyais plus sur Cafeyn https://t.co/mjmVuS0e0N,,0,0,2020-11-19 20:40:52.539508
+17,1329110081800204291,fr,2020-11-18 17:11:51.000000,BibichaSabria,@Cdiscount @cafeyn_fr Purée @cdiscount je savais même pas alors que je suis à volonté depuis 2017 😭,,0,0,2020-11-19 20:40:52.539522
+18,1329091367155318786,fr,2020-11-18 15:57:29.000000,cafeyn_fr,"Plus vertes, plus éthiques, plus locales… Voici une selection d'alternatives à #Amazon.
+Une multitude de nouvelles… https://t.co/bfQj6irULA",France,0,0,2020-11-19 20:40:52.539534
+19,1329081428462583814,fr,2020-11-18 15:18:00.000000,hereislb,"@Mar_Goth_ J'ai un abo à Libé en ce moment et un accès à Cafeyn si jamais tu as besoin, je partage avec plaisir.","Toulouse, France",1,0,2020-11-19 20:40:52.539547
+20,1329076586910343175,ca,2020-11-18 14:58:46.000000,Tayebsina3,"مايكنال صالح لصنع نتفلكس 😍😍😍
+bernier.nathalie2@orange.fr:Agatheber1 |  = [LOCATION DÉCODEUR, MINI SPORT, LE PACK FA… https://t.co/5ojq6RJCGW",,11,0,2020-11-19 20:40:52.539559
+21,1329057117760839682,fr,2020-11-18 13:41:24.000000,IkouKer,"La ligue va innover et proposer de passer à 16 clubs en Ligue 1 sans montée et descente 🤪🍷L'Equipe : Mediapro, l’Él… https://t.co/LiWUYBwHKv",Nantes ,0,0,2020-11-19 20:40:52.539571
+22,1329046353905917953,fr,2020-11-18 12:58:37.000000,SojaSoso,@bob15612 @Cdiscount @cafeyn_fr @Fnac @Cultura Du coups c'est qd MM mal barré...,,0,0,2020-11-19 20:40:52.539583
+23,1329046237782417410,und,2020-11-18 12:58:10.000000,SojaSoso,@bob15612 @Cdiscount @cafeyn_fr @Fnac @Cultura https://t.co/3Qu7WplnFy,,0,0,2020-11-19 20:40:52.539596
+24,1329045559102083076,fr,2020-11-18 12:55:28.000000,WestiixPS4,"@bob15612 @Cdiscount @cafeyn_fr @Fnac @Cultura La demande à était très forte du coté de Cdiscount il me semble.. 
+E… https://t.co/9urI10xqEr",France,0,0,2020-11-19 20:40:52.539609
+25,1329044754777124864,fr,2020-11-18 12:52:16.000000,laxprod88130,@bob15612 @Cdiscount @cafeyn_fr @Fnac @Cultura C'est abuser,,0,0,2020-11-19 20:40:52.539621
+26,1329044176026152961,fr,2020-11-18 12:49:58.000000,bob15612,@WestiixPS4 @Cdiscount @cafeyn_fr @Fnac @Cultura je l'aurai demain pour moi mais ce n'est pas le cas de tout le mon… https://t.co/VjUHEt2lxF,,1,0,2020-11-19 20:40:52.539633
+27,1329043070348898304,fr,2020-11-18 12:45:35.000000,Metalgeox,"@Cdiscount @cafeyn_fr Livraison gratuite mais v’la le délai ... etre CAV, et voir sa ps5 prête depuis dimanche pour… https://t.co/aUPGNlqOPf",,0,0,2020-11-19 20:40:52.539645
+28,1329043054968401920,fr,2020-11-18 12:45:31.000000,WestiixPS4,"@bob15612 @Cdiscount @cafeyn_fr @Fnac @Cultura Salut, 
+
+Quel est ton moyen de livraison et la date ? 
+Si c'est prév… https://t.co/7mLFjvu2yW",France,0,0,2020-11-19 20:40:52.539658
+29,1329042045139345409,fr,2020-11-18 12:41:30.000000,bob15612,@laxprod88130 @Cdiscount @cafeyn_fr @Fnac @Cultura ha pas mal....ils font forts...,,0,0,2020-11-19 20:40:52.539670
+30,1329041944081821698,fr,2020-11-18 12:41:06.000000,laxprod88130,@bob15612 @Cdiscount @cafeyn_fr @Fnac @Cultura Je te rassure je suis preco fnac et toujours en attente de fournisseur,,0,0,2020-11-19 20:40:52.539682
+31,1329041820798636033,fr,2020-11-18 12:40:37.000000,PRland,"Il se trouve que @LePoint n’est pas dans @cafeyn_fr, je ne lirai jamais cet article 😫 https://t.co/cyXT2nWwlB",Paris,1,0,2020-11-19 20:40:52.539695
+32,1329041265447538688,fr,2020-11-18 12:38:24.000000,Notaires83,"Voici comment d'ici 2023, l’entrée de ville d'Ollioules va se métamorphoser
+ https://t.co/rhfmusgRi5",,0,0,2020-11-19 20:40:52.539707
+33,1329041031673868288,fr,2020-11-18 12:37:28.000000,0199Alex,"Le culot mdr 
+ https://t.co/z1nQ5aFw8u",,0,0,2020-11-19 20:40:52.539719
+34,1329040795798745090,fr,2020-11-18 12:36:32.000000,irian59,@AmadouD51888898 @Cdiscount @cafeyn_fr pareil je force mais je lacherai rien,Lille,1,0,2020-11-19 20:40:52.539731
+35,1329040613048786947,fr,2020-11-18 12:35:49.000000,bob15612,"@Cdiscount @cafeyn_fr et pendant ce temps la vous êtes les seuls à être en retard concernant la PS5, contrairement… https://t.co/sIs6pHPI20",,1,0,2020-11-19 20:40:52.539743
+36,1329040540906778626,fr,2020-11-18 12:35:31.000000,SylvainBdrt,@Cdiscount @cafeyn_fr Et répondre au dm? C'est dedans aussi?,"Arras, France",0,0,2020-11-19 20:40:52.539757
+37,1329040490369576961,fr,2020-11-18 12:35:19.000000,irian59,"@Cdiscount @cafeyn_fr Aujourd'hui le 18/11/2020 
+@cdiscount voyages et/ou 
+@finnair
+  ne veulent pas me rembourser… https://t.co/k3sDfcgG0R",Lille,4,0,2020-11-19 20:40:52.539769
+38,1329040300426334210,fr,2020-11-18 12:34:34.000000,AmadouD51888898,@Cdiscount @cafeyn_fr @Cdiscount fake News. Remboursez moi mon billet d’avion,,1,0,2020-11-19 20:40:52.539781
+39,1329040293761601536,fr,2020-11-18 12:34:33.000000,Leliange68,@Cdiscount @cafeyn_fr ah bon ? Je n'étais pas au courant xD pas de supplément ?,Colmar,0,0,2020-11-19 20:40:52.539794
+40,1329040018615234560,und,2020-11-18 12:33:27.000000,ImPKeTa80,@Cdiscount @cafeyn_fr Mdrrr,,0,0,2020-11-19 20:40:52.539806
+41,1329039716138831875,tl,2020-11-18 12:32:15.000000,_Ryzon_,@Cdiscount @cafeyn_fr khalass la ps5,,4,0,2020-11-19 20:40:52.539817
+42,1329039661382070272,fr,2020-11-18 12:32:02.000000,Cdiscount,"Le saviez-vous ❓
+
+✔️ En plus de la livraison gratuite et en express avec Cdiscount à Volonté, vous avez accès à la… https://t.co/eUR0a9sFvi",France,20,1,2020-11-19 20:40:52.539830
+43,1329037223132532736,fr,2020-11-18 12:22:20.000000,cafeyn_fr,"#Té✨moignage : Daniela, #infirmière spécialisée, a concrétisé son rêve d’intégrer la troupe de danseuses du Crazy H… https://t.co/rd80dQv5sI",France,0,0,2020-11-19 20:40:52.539842
+44,1329023479992160259,fr,2020-11-18 11:27:44.000000,Valmont75,"Le Parisien Paris : Quand la droite défend la légalisation du cannabis
+Comme quoi tout arrive 🤷‍♂️ https://t.co/AG92gH1yZH",,0,0,2020-11-19 20:40:52.539854
+45,1329007022512222208,fr,2020-11-18 10:22:20.000000,bgazet,"L’Express : Chez Danone, le temps du grand ménage https://t.co/GgA1efQrrf","Villemomble, France",0,0,2020-11-19 20:40:52.539866
+46,1329005492576931840,fr,2020-11-18 10:16:15.000000,Louis76Delvinq,"#THREAD ❄️
+💡 Pourquoi le numéro 34 de @NordicMag est historique ? 💡 
+Voici en quelques points les raisons de s'abon… https://t.co/vv0KRXEqeP",,7,3,2020-11-19 20:40:52.539878
+47,1328989265951395841,fr,2020-11-18 09:11:47.000000,cafeyn_fr,Lutte contre le #séparatisme : Le projet de #loi « confortant les principes républicains » entend notamment renforc… https://t.co/pg0mAG68MO,France,0,0,2020-11-19 20:40:52.539890
+48,1328988884907257861,fr,2020-11-18 09:10:16.000000,cafeyn_fr,#Covid19 : les eaux usées confirment une décrue en Ile-de-France.  Les effets des mesures comme le #confinement y s… https://t.co/8Dmg50mXhL,France,0,1,2020-11-19 20:40:52.539903
+49,1328980657037602817,en,2020-11-18 08:37:34.000000,poussantg,"Causette, n°116, 28/10/2020 - https://t.co/rEXP70VYL7 https://t.co/MUDjs3CPuN",France . Doubs ..,0,0,2020-11-19 20:40:52.539915
+50,1328958077748514824,fr,2020-11-18 07:07:51.000000,PkraftR,"@geraldgeronimi Accessible sur Cafeyn
+
+La Provence Marseille du 18 nov. 2020 https://t.co/F5Q4aspeX6",France,1,0,2020-11-19 20:40:52.539928
+51,1328948805925019650,fr,2020-11-18 06:31:00.000000,Phcourtet,"Le Figaro : « Une organisation de l’hôpital unique en France »
+ https://t.co/Eqo3U5Filo",,0,0,2020-11-19 20:40:52.539940
+52,1328849711806214144,fr,2020-11-17 23:57:14.000000,wibje,"@cafeyn_fr @SequinaZ Sa vie, pas la mienne.","Paimpont, France",0,0,2020-11-19 20:40:52.539952
+53,1328808285684834304,fr,2020-11-17 21:12:38.000000,xorgina_oi,Bon c'est quoi les magazines cool à suivre sur Cafeyn ? 😕,"Montpellier, France",0,0,2020-11-19 20:40:52.539964
+54,1328804205897904133,fr,2020-11-17 20:56:25.000000,fcrozat,"@Pierrolex Déjà, il faut compter 3 mois de délai pour une migration Delta (que ce soit S / pop ou devialet), Free a… https://t.co/pG14ff2efj","Paris, France",3,0,2020-11-19 20:40:52.539976
+55,1328753739830845443,fr,2020-11-17 17:35:53.000000,Bruno_FIBRE,"@Tony_Glandile @free @PrimeVideoFR Elle est incluse si c'est l'offre delta + pop, pourquoi c'est en rupture de stoc… https://t.co/dyDTnC5Ge0","Ile-de-France, France",0,0,2020-11-19 20:40:52.539988
+56,1328745620790779904,fr,2020-11-17 17:03:37.000000,_Diablotin_,"Avec les «Fleets», Twitter se met aux tweets éphémères
+ https://t.co/RemUIpEIUV","Paris, France",0,0,2020-11-19 20:40:52.540000
+57,1328718923345371138,fr,2020-11-17 15:17:32.000000,cafeyn_fr,"Six ans après avoir trompé Valérie #Trierweiler, François #Hollande vit une nouvelle liaison secrète. Le matin, c’e… https://t.co/y1v1EUJA0k",France,1,1,2020-11-19 20:40:52.540012
+58,1328708044084170754,fr,2020-11-17 14:34:18.000000,cafeyn_fr,"@N_Ki0 Je vous ai envoyé un message sur Twitter, désolé pour le désagrément, on va régler ça tout de suite.",France,0,0,2020-11-19 20:40:52.540070
+59,1328707842002608128,fr,2020-11-17 14:33:30.000000,cafeyn_fr,"@N_Ki0 Bonjour, ce n'est en effet pas normal du tout. Pouvez-vous nous envoyer un message privé sur Twitter avec vo… https://t.co/ru4Uv6D0tj",France,0,0,2020-11-19 20:40:52.540086
+60,1328707060771532801,fr,2020-11-17 14:30:24.000000,N_Ki0,"@cafeyn_fr @cafeyn_fr Après deux semaines de contacts cordiaux mais infructueux, le nouveau client que je suis pein… https://t.co/Wmb9FLyvvu",,0,0,2020-11-19 20:40:52.540098
+61,1328706451565645827,fr,2020-11-17 14:27:58.000000,N_Ki0,"Bonjour @cafeyn_fr,
+Je n'ai pas de nouvelles du service client depuis la fin de la semaine dernière et j'ai tenté d… https://t.co/nslqaPOdcY",,0,0,2020-11-19 20:40:52.540110
+62,1328661662841364480,fr,2020-11-17 11:30:00.000000,cafeyn_fr,"Outre le client, la satisfaction des salariés est devenue cruciale en #entreprise. Parce qu'on a tous hâte de reven… https://t.co/QdBBWAyVDG",France,0,4,2020-11-19 20:40:52.540123
+63,1328658983549329408,fr,2020-11-17 11:19:21.000000,mollardy,"@cafeyn_fr Avec un abonnement Cafeyn, peut-on accéder à des articles depuis des liens de réseaux sociaux sous paywa… https://t.co/eIBkqwbYv9","Bordeaux, France",0,0,2020-11-19 20:40:52.540135
+64,1328647626825355264,fr,2020-11-17 10:34:13.000000,IkouKer,"Le Figaro : Comment le foot français a causé sa perte en voulant atteindre le milliard
+ https://t.co/catG28sPpZ",Nantes ,0,0,2020-11-19 20:40:52.540148
+65,1328645063661015040,nl,2020-11-17 10:24:02.000000,joosterman,Zin om een jaartje (tussenjaar?) samen met mij aan Data dingen te werken? Nu @BlendleNL is overgenomen door Cafeyn… https://t.co/hVqZkOVE31,Rotterdam,0,1,2020-11-19 20:40:52.540160
+66,1328640011797979136,fr,2020-11-17 10:03:58.000000,cafeyn_fr,"Censés inaccessibles afin de limiter la #concurrence avec les petits #commerces, les rayons jouets ou textile ne so… https://t.co/APRmIkSEPB",France,0,0,2020-11-19 20:40:52.540172
+67,1328634585077452800,fr,2020-11-17 09:42:24.000000,Anatoli81840259,@ludovicdf Dommage l'article réservé aux abonnés.. je vais aller me consoler avec Cafeyn.. :(,,0,0,2020-11-19 20:40:52.540183
+68,1328610505150361600,fr,2020-11-17 08:06:43.000000,n_arthaud,"Le #Covid, un nouveau prétexte pour licencier ! Révoltant ! https://t.co/5IVBYP7kC9",,68,61,2020-11-19 20:40:52.540195
+69,1328600961447829505,fr,2020-11-17 07:28:48.000000,jlozack,"Confinement : Ce n'est pas sûr que les bars et les restaurants pourrons réouvrir le 15 janvier 2021
+
+https://t.co/3BeZDD6Anz",Bretagne 🇲🇫🇺🇸,0,0,2020-11-19 20:40:52.540208
+70,1328598473541885954,fr,2020-11-17 07:18:54.000000,jlozack,Saint-Denis: 66eme évacuation de migrants qui seront répartis dans toute la France : Saint-Denis à l’aube de la 66e… https://t.co/flvIbSYmEn,Bretagne 🇲🇫🇺🇸,0,3,2020-11-19 20:40:52.540245
+71,1328588558966415362,fr,2020-11-17 06:39:31.000000,pygillier,"@cafeyn_fr La lecture smart (nécessaire sur mobile) qui a des ratés une fois sur deux. Enfin, une amélioration à fa… https://t.co/fifoxQaBYm",Angers - France,0,0,2020-11-19 20:40:52.540258
+72,1328587842730254339,fr,2020-11-17 06:36:40.000000,pygillier,"Bon, après quelques jours de test, c'est plutôt pratique @cafeyn_fr mais avec des points noirs : UX en berne ""favor… https://t.co/fQf3NcBHr7",Angers - France,0,0,2020-11-19 20:40:52.540270
+73,1328437323973922816,fr,2020-11-16 20:38:33.000000,Marc311PL,L’Indépendant : Près de 800 personnes rassemblées à Perpignan pour enterrer les 'oubliés du quoi qu'il en coûte' https://t.co/fjoX3uhy3z,Toulouse,0,0,2020-11-19 20:40:52.540286
+74,1328344649015160833,fr,2020-11-16 14:30:18.000000,AlexandreKADUR,"@realDonaldTrump WIN
+Le logiciel Dominion aurait ""effacé 2,7 millions de votes Trump à travers le pays"", et que des… https://t.co/eToIgrLwqw",Tarija(Bolivie),0,0,2020-11-19 20:40:52.540298
+75,1328314008118714386,fr,2020-11-16 12:28:33.000000,Brunemagazine,"@Noellacc
+#mannequin #Congo
+Brune Magazine en kiosque 
+
+https://t.co/EvrE1FAhyc
+https://t.co/7jOQkoiqA5… https://t.co/1NQiK1GDN2","Paris, France",1,0,2020-11-19 20:40:52.540310
+76,1328308582241210369,fr,2020-11-16 12:06:59.000000,cafeyn_fr,"Après plus de deux ans d’instruction et de multiples changements de versions, Jonathann Daval comparaît à partir de… https://t.co/M9qrkiEhw7",France,0,0,2020-11-19 20:40:52.540322
+77,1328293402706927617,fr,2020-11-16 11:06:40.000000,free_senegal,"Avec Cafeyn, la presse internationale vient à toi avec +70 titres de presse online dont l’Equipe et Paris Match à l… https://t.co/4mykQEuAEO",Sénégal,4,1,2020-11-19 20:40:52.540335
+78,1328290457693134849,fr,2020-11-16 10:54:58.000000,bgazet,"Sud Ouest : Train : de Lyon à Bordeaux, le train sifflera dix fois #ferroviaire  https://t.co/UOz1Q0ncIP","Villemomble, France",0,0,2020-11-19 20:40:52.540347
+79,1328277964342095872,fr,2020-11-16 10:05:19.000000,IkouKer,La Voix des Sports du 16 nov. 2020 https://t.co/hjEaFbhWO8,Nantes ,0,0,2020-11-19 20:40:52.540359
+80,1328258879025721344,fr,2020-11-16 08:49:29.000000,cafeyn_fr,"#BrExit : Accord inédit ou échec cuisant ? Dernière ligne droite de négociations.
+#Londres et #Bruxelles ont promis… https://t.co/LA432luFUI",France,0,0,2020-11-19 20:40:52.540371
+81,1328117742105399296,fr,2020-11-15 23:28:39.000000,Massobry,@BounyaAdam @lequipe Toutes les maisons de la presse + en ligne sur leur site ou dans des agrégateurs de journaux (… https://t.co/1SSe51J4Sl,Entre Caen et Strasbourg,1,0,2020-11-19 20:40:52.540383
+82,1328045955514503168,fr,2020-11-15 18:43:24.000000,MARTINELPV,"Via @Challenges : @3DSfrance décolle dans les sciences de la vie. Le rêve d’un double digital humain
+
+#innovation… https://t.co/pjv7M5nu2M",Paris & Bordeaux,0,1,2020-11-19 20:40:52.540395
+0,1330095454269399040,fr,2020-11-21 10:27:22.000000,Mordicus92,La #France ce merveilleux pays où les personnes qui ne bossent pas gagnent quand même des congés! Merci ⁦… https://t.co/DMDekApgAa,"Rueil-Malmaison, France",0,0,2020-11-21 11:58:06.216386
+1,1330092713904107521,fr,2020-11-21 10:16:29.000000,Mordicus92,"Comme souvent M. Gauchet a raison, sur l’état calamiteux de notre service public, l’incompétence de ceux qui nous g… https://t.co/sgCSn6Tyrn","Rueil-Malmaison, France",0,0,2020-11-21 11:58:06.216400
+2,1330074982643281921,fr,2020-11-21 09:06:02.000000,dondraperparis,"Libération : Magouille
+ https://t.co/B3J3Cn4dlD",paris mais je peux me deplacer,0,0,2020-11-21 11:58:06.216406
+3,1330070615127191553,fr,2020-11-21 08:48:40.000000,medialanguidic,Lisez vos journaux locaux du week-end et la presse nationale grâce à notre offre gratuite destinée aux adhérents de… https://t.co/B3NxLXDUrR,"Languidic, France",0,0,2020-11-21 11:58:06.216412
+4,1330055747217010694,fr,2020-11-21 07:49:36.000000,SebBoyerNAMM,@hugoguillemet @lemaglequipe Hello @cafeyn_fr dispo dans sur votre appli ?,"Montpellier, France",0,0,2020-11-21 11:58:06.216417
+5,1330045555855273984,fr,2020-11-21 07:09:06.000000,twin_teachers,@AgnurWild @libe @jmblanquer @HuartJean Je suis abonné à @cafeyn_fr,,0,0,2020-11-21 11:58:06.216422
+6,1329858005970673666,fr,2020-11-20 18:43:50.000000,Phcourtet,"L'Express : Laissons respirer le secteur médical
+ https://t.co/O3qZjlwM6A",,0,0,2020-11-21 11:58:06.216428
+7,1329800349557923840,fr,2020-11-20 14:54:44.000000,cafeyn_fr,Comment l’apprentissage d’une nouvelle langue à l'âge adulte se manifeste-t-elle dans le #cerveau ? Réponse ici 👉… https://t.co/lfRvbJEHEj,France,0,0,2020-11-21 11:58:06.216433
+8,1329766969223024642,fr,2020-11-20 12:42:05.000000,cafeyn_fr,"Pour Naomi Campbell, qui fut proche de Nelson Mandela, l'engagement n'est pas qu'un mot. De la diversité dans la Mo… https://t.co/WGWg5sXQtV",France,0,0,2020-11-21 11:58:06.216438
+9,1329761584256835586,fr,2020-11-20 12:20:42.000000,ctvdnvals,"Libération : La société a-t-elle les complotistes qu’elle mérite ?
+ https://t.co/km2dYdELhw","Valenciennes, France",0,0,2020-11-21 11:58:06.216443
+10,1329718282333655041,fr,2020-11-20 09:28:38.000000,cafeyn_fr,"L'UE pourrait payer plus de 10 milliards d'euros pour les #vaccins Pfizer et CureVac.
+https://t.co/pFhOzrrq7M… https://t.co/RSFkCJYGFQ",France,1,0,2020-11-21 11:58:06.216448
+11,1329514984091623435,fr,2020-11-19 20:00:48.000000,RiriMosquito,Mais pourquoi il n'y a plus @TelecableSat sur @cafeyn_fr ?,Versailles du Languedoc,0,0,2020-11-21 11:58:06.216454
