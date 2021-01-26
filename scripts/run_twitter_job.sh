@@ -2,11 +2,11 @@
 
 echo "[`date +"%y-%m-%d %H:%I:%S"`] Sync started";
 
-# Go to repo
-cd ~/Documents/repos/twitter
+# Add directories to PATH so that user root can use GIT LFS
+export PATH=$PATH:/home/pi/berryconda3/bin:/usr/local/go/bin
 
-# Activate virtual environment
-source /home/pi/berryconda3/envs/twitter/bin/activate twitter
+# Go to repo
+cd /home/pi/Documents/repos/twitter
 
 # Make sure we're not behind master
 /usr/bin/git pull
