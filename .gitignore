@@ -3,3 +3,9 @@
 .env
 .setup
 .Rproj.user
+.ipy*
+.idea
+.vscode
+*.gpg
+requirements.txt
+__pycache__
