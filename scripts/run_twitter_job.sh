@@ -12,7 +12,7 @@ cd /home/pi/Documents/repos/twitter
 /usr/bin/git pull
 
 # Execute script
-/home/pi/berryconda3/envs/twitter/bin/python twitter_searches_tmp.py
+/home/pi/berryconda3/envs/twitter/bin/python scripts/twitter_searches.py
 
 # Versioning
 HOME=/home/pi
