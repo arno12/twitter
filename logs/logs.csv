@@ -1,18 +1,4 @@
-Traceback (most recent call last):
-  File "twitter_searches_tmp.py", line 50, in <module>
-    if logs_path.is_file()
-  File "/home/pi/berryconda3/envs/twitter/lib/python3.6/site-packages/pandas/io/parsers.py", line 678, in parser_f
-    return _read(filepath_or_buffer, kwds)
-  File "/home/pi/berryconda3/envs/twitter/lib/python3.6/site-packages/pandas/io/parsers.py", line 440, in _read
-    parser = TextFileReader(filepath_or_buffer, **kwds)
-  File "/home/pi/berryconda3/envs/twitter/lib/python3.6/site-packages/pandas/io/parsers.py", line 787, in __init__
-    self._make_engine(self.engine)
-  File "/home/pi/berryconda3/envs/twitter/lib/python3.6/site-packages/pandas/io/parsers.py", line 1014, in _make_engine
-    self._engine = CParserWrapper(self.f, **self.options)
-  File "/home/pi/berryconda3/envs/twitter/lib/python3.6/site-packages/pandas/io/parsers.py", line 1708, in __init__
-    self._reader = parsers.TextReader(src, **kwds)
-  File "pandas/_libs/parsers.pyx", line 542, in pandas._libs.parsers.TextReader.__cinit__
-pandas.errors.EmptyDataError: No columns to parse from file
+timestamp,company,tweets
 1609322265.446237,blendle,0
 1609326005.347001,blendle,1
 1609326006.551345,cafeyn,1
