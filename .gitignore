@@ -9,3 +9,4 @@
 *.gpg
 requirements.txt
 __pycache__
+git-secret/*
