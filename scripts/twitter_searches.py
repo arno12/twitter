@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     api = tweepy.API(auth)
 
-    companies = ["blendle", "cafeyn", "milibris"]
+    companies = ["blendle", "cafeyn", "milibris", "readly", "pocket", "flipboard", "apple news", "google news", "feedly"]
 
     # 7 days ago - which is the maximum time Twitter allows you to go in the past.
     date_since = datetime.now() - timedelta(days=7)
