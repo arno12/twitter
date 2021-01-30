@@ -7,7 +7,7 @@ library(tidytext)
 library(stopwords)
 
 # Load data
-twitter <- read_csv("~/self_dev/Python/twitter_api_test/results/twitter_searches_incremental_tmp.csv") %>% 
+twitter <- read_csv("../results/twitter_searches_incremental.csv") %>% 
   mutate(from_owned_account = str_detect(tolower(screen_name),'blendle|cafeyn|milibris')) 
 
 # 1. Show tweets collected over time
