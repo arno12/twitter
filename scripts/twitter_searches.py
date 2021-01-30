@@ -130,6 +130,3 @@ if __name__ == "__main__":
             logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
         )
 
-        # Wait 30 secs
-        time.sleep(30)
-
