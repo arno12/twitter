@@ -21,7 +21,7 @@ if __name__ == "__main__":
 
     api = tweepy.API(auth)
 
-    companies = ["blendle", "cafeyn", "milibris", "readly", "pocket", "flipboard", "apple news", "google news", "feedly"]
+    companies = ["blendle", "cafeyn", "milibris", "readly"]
 
     # 7 days ago - which is the maximum time Twitter allows you to go in the past.
     date_since = datetime.now() - timedelta(days=7)
@@ -29,10 +29,10 @@ if __name__ == "__main__":
     date_now = datetime.now().strftime("%Y_%m_%d")
 
     # create results folder if it doesn't exist yet
-    Path("../results").mkdir(parents=True, exist_ok=True)
+    Path("./results").mkdir(parents=True, exist_ok=True)
 
     # Load previous data if it exists
-    last_results_path = Path("../results/twitter_searches_incremental.csv")
+    last_results_path = Path("./results/twitter_searches_incremental.csv")
 
     last_results = (
         pd.read_csv(last_results_path)
@@ -41,9 +41,9 @@ if __name__ == "__main__":
     )
 
     # Create logs folder if it doesn't exlist yet
-    Path("../logs").mkdir(parents=True, exist_ok=True)
+    Path("./logs").mkdir(parents=True, exist_ok=True)
 
-    logs_path = Path("../logs/logs.csv")
+    logs_path = Path("./logs/logs.csv")
 
     logs = (
         pd.read_csv(logs_path)
