@@ -59,7 +59,7 @@ if __name__ == "__main__":
     new_results_path = Path("./results/twitter_searches_incremental.tsv")
 
     last_31days_results = (
-        pd.read_csv(last_31days_results_path)
+        pd.read_csv(last_31days_results_path, sep='\t')
         if last_31days_results_path.is_file()
         else pd.DataFrame(columns=["id"])
     )
