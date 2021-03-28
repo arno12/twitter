@@ -1,8 +1,8 @@
+import boto3
 import tweepy
 import time
 import csv
 import pandas as pd
-import boto3
 from pathlib import Path
 from datetime import datetime, timedelta
 from settings import consumer_key, consumer_secret, access_token, access_token_secret
@@ -138,7 +138,7 @@ if __name__ == "__main__":
             sep="\t"
         )
 
-        s3.upload_fileobj(df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv")
+        s3_client.upload_fileobj(df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv")
 
         # Save a version with the last 31 days only
         df_last_31_days = df[df.created_at > datetime.datetime.now() - pd.to_timedelta("31day")]
@@ -150,7 +150,7 @@ if __name__ == "__main__":
             sep="\t"
         )
 
-        s3.upload_fileobj(df_last_31_days, "arno12-tweets", "all-tweets/twitter_searches_last_31_days.tsv")
+        s3_client.upload_fileobj(df_last_31_days, "arno12-tweets", "all-tweets/twitter_searches_last_31_days.tsv")
 
         # Print logs
         print(
@@ -168,4 +168,3 @@ if __name__ == "__main__":
         logs.to_csv(
             logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
         )
-
