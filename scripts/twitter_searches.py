@@ -143,7 +143,7 @@ if __name__ == "__main__":
 
         # Upload to s3
         upload_file(
-            ".results/twitter_searches_incremental.tsv",
+            "./results/twitter_searches_incremental.tsv",
             "arno12-tweets",
             "all-tweets/twitter_searches_incremental.tsv",
         )
@@ -162,7 +162,7 @@ if __name__ == "__main__":
 
         # Upload to s3
         upload_file(
-            ".results/twitter_searches_last_31_days.tsv",
+            "./results/twitter_searches_last_31_days.tsv",
             "arno12-tweets",
             "all-tweets/twitter_searches_last_31_days.tsv",
         )
