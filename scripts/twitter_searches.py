@@ -143,7 +143,9 @@ if __name__ == "__main__":
 
         # Upload to s3
         upload_file(
-            df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv"
+            ".results/twitter_searches_incremental.tsv",
+            "arno12-tweets",
+            "all-tweets/twitter_searches_incremental.tsv",
         )
 
         # Save a version with the last 31 days only
@@ -160,7 +162,7 @@ if __name__ == "__main__":
 
         # Upload to s3
         upload_file(
-            df_last_31_days,
+            ".results/twitter_searches_last_31_days.tsv",
             "arno12-tweets",
             "all-tweets/twitter_searches_last_31_days.tsv",
         )
