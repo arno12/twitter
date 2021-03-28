@@ -150,7 +150,7 @@ if __name__ == "__main__":
 
         # Save a version with the last 31 days only
         df_last_31_days = df[
-            df.created_at > datetime.datetime.now() - pd.to_timedelta("31day")
+            df.created_at > datetime.now() - pd.to_timedelta("31day")
         ]
 
         df_last_31_days.to_csv(
