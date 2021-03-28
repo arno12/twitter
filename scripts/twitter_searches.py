@@ -1,4 +1,6 @@
+import logging
 import boto3
+from botocore.exceptions import ClientError
 import tweepy
 import time
 import csv
@@ -30,13 +32,14 @@ def upload_file(file_name, bucket, object_name=None):
         object_name = file_name
 
     # Upload the file
-    s3_client = boto3.client('s3')
+    s3_client = boto3.client("s3")
     try:
         response = s3_client.upload_file(file_name, bucket, object_name)
     except ClientError as e:
         logging.error(e)
         return False
     return True
+
 
 if __name__ == "__main__":
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -59,7 +62,7 @@ if __name__ == "__main__":
     new_results_path = Path("./results/twitter_searches_incremental.tsv")
 
     last_31days_results = (
-        pd.read_csv(last_31days_results_path, sep='\t')
+        pd.read_csv(last_31days_results_path, sep="\t")
         if last_31days_results_path.is_file()
         else pd.DataFrame(columns=["id"])
     )
@@ -135,22 +138,30 @@ if __name__ == "__main__":
             mode="a",
             header=not Path(new_results_path).is_file(),
             index=False,
-            sep="\t"
+            sep="\t",
         )
 
-        s3_client.upload_fileobj(df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv")
+        s3_client.upload_fileobj(
+            df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv"
+        )
 
         # Save a version with the last 31 days only
-        df_last_31_days = df[df.created_at > datetime.datetime.now() - pd.to_timedelta("31day")]
+        df_last_31_days = df[
+            df.created_at > datetime.datetime.now() - pd.to_timedelta("31day")
+        ]
 
         df_last_31_days.to_csv(
             last_31days_results_path,
             header=not Path(last_31days_results_path).is_file(),
             index=False,
-            sep="\t"
+            sep="\t",
         )
 
-        s3_client.upload_fileobj(df_last_31_days, "arno12-tweets", "all-tweets/twitter_searches_last_31_days.tsv")
+        s3_client.upload_fileobj(
+            df_last_31_days,
+            "arno12-tweets",
+            "all-tweets/twitter_searches_last_31_days.tsv",
+        )
 
         # Print logs
         print(
