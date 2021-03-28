@@ -141,7 +141,8 @@ if __name__ == "__main__":
             sep="\t",
         )
 
-        s3_client.upload_fileobj(
+        # Upload to s3
+        upload_file(
             df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv"
         )
 
@@ -157,7 +158,8 @@ if __name__ == "__main__":
             sep="\t",
         )
 
-        s3_client.upload_fileobj(
+        # Upload to s3
+        upload_file(
             df_last_31_days,
             "arno12-tweets",
             "all-tweets/twitter_searches_last_31_days.tsv",
