@@ -8,7 +8,7 @@ cd /home/pi/Documents/repos/twitter
 # Make sure we're not behind master
 /usr/bin/git pull
 
-# Execute script
+# Execute main job to retrieve new tweets
 /home/pi/miniconda3/envs/twitter/bin/python scripts/twitter_searches.py
 
 # Versioning
