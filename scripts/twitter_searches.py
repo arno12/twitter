@@ -23,8 +23,8 @@ if __name__ == "__main__":
 
     companies = ["blendle", "cafeyn", "milibris", "readly"]
 
-    # 7 days ago - which is the maximum time Twitter allows you to go in the past.
-    date_since = datetime.now() - timedelta(days=7)
+    # 30 days ago - which is the maximum time Twitter allows you to go in the past.
+    date_since = datetime.now() - timedelta(days=30)
     date_since = date_since.strftime("%Y-%m-%d")
     date_now = datetime.now().strftime("%Y_%m_%d")
 
@@ -32,15 +32,16 @@ if __name__ == "__main__":
     Path("./results").mkdir(parents=True, exist_ok=True)
 
     # Load previous data if it exists
-    last_results_path = Path("./results/twitter_searches_incremental.csv")
+    last_31days_results_path = Path("./results/twitter_searches_last_31_days.tsv")
+    new_results_path = Path("./results/twitter_searches_incremental.tsv")
 
-    last_results = (
-        pd.read_csv(last_results_path)
-        if last_results_path.is_file()
+    last_31days_results = (
+        pd.read_csv(last_31days_results_path)
+        if last_31days_results_path.is_file()
         else pd.DataFrame(columns=["id"])
     )
 
-    # Create logs folder if it doesn't exlist yet
+    # Create logs folder if it doesn't exist yet
     Path("./logs").mkdir(parents=True, exist_ok=True)
 
     logs_path = Path("./logs/logs.csv")
@@ -100,17 +101,27 @@ if __name__ == "__main__":
         )
 
         # Identify what values are in last_results and not in df
-        existing_ids = list(set(last_results.id).intersection(df.id))
+        existing_ids = list(set(last_31days_results.id).intersection(df.id))
 
         # Exclude rows that contain id's that we already have from a previous iteration
         df = df[~df.id.isin(existing_ids)]
 
         # Append new rows to existing result set
         df.to_csv(
-            last_results_path,
+            new_results_path,
             mode="a",
-            header=not Path(last_results_path).is_file(),
+            header=not Path(new_results_path).is_file(),
             index=False,
+            sep="\t"
+        )
+
+        # Save a version with the last 31 days only
+        df_last_31_days = df[df.created_at > datetime.datetime.now() - pd.to_timedelta("31day")]
+        df_last_31_days.to_csv(
+            last_31days_results_path,
+            header=not Path(last_31days_results_path).is_file(),
+            index=False,
+            sep="\t"
         )
 
         # Print logs

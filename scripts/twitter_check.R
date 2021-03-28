@@ -6,7 +6,7 @@ library(tidymodels)
 library(tidytext)
 library(stopwords)
 
-twitter <- read_csv("~/self_dev/Python/twitter_api_test/results/twitter_searches_incremental_tmp.csv") %>% 
+twitter <- read_csv("~/self_dev/twitter_api_test/results/twitter_searches_incremental.csv") %>% 
   mutate(from_owned_account = str_detect(tolower(screen_name),'blendle|cafeyn|milibris')) 
 
 twitter %>% 
