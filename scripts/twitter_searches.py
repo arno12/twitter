@@ -2,6 +2,7 @@ import tweepy
 import time
 import csv
 import pandas as pd
+import boto3
 from pathlib import Path
 from datetime import datetime, timedelta
 from settings import consumer_key, consumer_secret, access_token, access_token_secret
@@ -14,6 +15,28 @@ def limit_handled(cursor):
         except tweepy.RateLimitError:
             time.sleep(15 * 60)
 
+
+def upload_file(file_name, bucket, object_name=None):
+    """Upload a file to an S3 bucket
+
+    :param file_name: File to upload
+    :param bucket: Bucket to upload to
+    :param object_name: S3 object name. If not specified then file_name is used
+    :return: True if file was uploaded, else False
+    """
+
+    # If S3 object_name was not specified, use file_name
+    if object_name is None:
+        object_name = file_name
+
+    # Upload the file
+    s3_client = boto3.client('s3')
+    try:
+        response = s3_client.upload_file(file_name, bucket, object_name)
+    except ClientError as e:
+        logging.error(e)
+        return False
+    return True
 
 if __name__ == "__main__":
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
@@ -115,14 +138,19 @@ if __name__ == "__main__":
             sep="\t"
         )
 
+        s3.upload_fileobj(df, "arno12-tweets", "all-tweets/twitter_searches_incremental.tsv")
+
         # Save a version with the last 31 days only
         df_last_31_days = df[df.created_at > datetime.datetime.now() - pd.to_timedelta("31day")]
+
         df_last_31_days.to_csv(
             last_31days_results_path,
             header=not Path(last_31days_results_path).is_file(),
             index=False,
             sep="\t"
         )
+
+        s3.upload_fileobj(df_last_31_days, "arno12-tweets", "all-tweets/twitter_searches_last_31_days.tsv")
 
         # Print logs
         print(
