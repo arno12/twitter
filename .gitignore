@@ -10,3 +10,5 @@
 requirements.txt
 __pycache__
 git-secret/*
+.R*
+scripts/secrets.py
