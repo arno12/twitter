@@ -155,16 +155,8 @@ if __name__ == "__main__":
 
         df_last_31_days.to_csv(
             last_31days_results_path,
-            header=not Path(last_31days_results_path).is_file(),
             index=False,
             sep="\t",
-        )
-
-        # Upload to s3
-        upload_file(
-            "./results/twitter_searches_last_31_days.tsv",
-            "arno12-tweets",
-            "all-tweets/twitter_searches_last_31_days.tsv",
         )
 
         # Print logs
