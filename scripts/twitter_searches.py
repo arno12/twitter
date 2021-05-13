@@ -81,25 +81,24 @@ if __name__ == "__main__":
     for company in companies:
         print("Starting with {}...".format(company))
         query = company + " -filter:retweets"
-        tweets = limit_handled(
-            tweepy.Cursor(
-                api.search,
-                q=query,
-                # geocode="51.969685,4.051642,1000km",
-                count=100,
-                result_type="recent",
-                include_entities=True,
-                since=date_since,
-            ).items(1000)
-        )
-
+	tweets = 
+		tweepy.Cursor(
+			api.search,
+			q=query,
+			# geocode="51.969685,4.051642,1000km",
+			count=100,
+			result_type="recent",
+			include_entities=True,
+			since=date_since,
+			tweet_mode = "extended",
+		).items(1000)
         locs = [
             [
                 tweet.id,
                 tweet.metadata["iso_language_code"],
                 tweet.created_at,
                 tweet.user.screen_name,
-                tweet.text,
+                tweet.full_text,
                 tweet.user.location,
                 tweet.favorite_count,
                 tweet.retweet_count,
