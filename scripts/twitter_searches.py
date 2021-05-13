@@ -9,15 +9,6 @@ from pathlib import Path
 from datetime import datetime, timedelta
 from settings import consumer_key, consumer_secret, access_token, access_token_secret
 
-
-def limit_handled(cursor):
-    while True:
-        try:
-            yield cursor.next()
-        except tweepy.RateLimitError:
-            time.sleep(15 * 60)
-
-
 def upload_file(file_name, bucket, object_name=None):
     """Upload a file to an S3 bucket
 
