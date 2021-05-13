@@ -81,17 +81,17 @@ if __name__ == "__main__":
     for company in companies:
         print("Starting with {}...".format(company))
         query = company + " -filter:retweets"
-	tweets = 
-		tweepy.Cursor(
-			api.search,
-			q=query,
-			# geocode="51.969685,4.051642,1000km",
-			count=100,
-			result_type="recent",
-			include_entities=True,
-			since=date_since,
-			tweet_mode = "extended",
-		).items(1000)
+
+        tweets = tweepy.Cursor(
+            api.search,
+            q=query,
+            # geocode="51.969685,4.051642,1000km",
+            count=100,
+            result_type="recent",
+            include_entities=True,
+            since=date_since,
+            tweet_mode="extended",
+        ).items(1000)
         locs = [
             [
                 tweet.id,
@@ -148,9 +148,7 @@ if __name__ == "__main__":
         )
 
         # Save a version with the last 31 days only
-        df_last_31_days = df[
-            df.created_at > datetime.now() - pd.to_timedelta("31day")
-        ]
+        df_last_31_days = df[df.created_at > datetime.now() - pd.to_timedelta("31day")]
 
         df_last_31_days.to_csv(
             last_31days_results_path,
