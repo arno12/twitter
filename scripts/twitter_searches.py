@@ -80,6 +80,22 @@ if __name__ == "__main__":
         else pd.DataFrame(columns=["imported_at", "company", "total_rows"])
     )
 
+    # intialize empty df for last 31 days - so we can add each company tweet id's to it in the loop
+    col_names = [
+        "id",
+        "iso_language_code",
+        "created_at",
+        "screen_name",
+        "text",
+        "location",
+        "favorite_count",
+        "retweet_count",
+        "queried_at",
+        "company",
+    ]
+
+    last_31days_container = pd.DataFrame(columns=col_names)
+
     for company in companies:
         print("Starting with {}...".format(company))
         query = company + " -filter:retweets"
@@ -113,18 +129,7 @@ if __name__ == "__main__":
         # latest data
         df = pd.DataFrame(
             data=locs,
-            columns=[
-                "id",
-                "iso_language_code",
-                "created_at",
-                "screen_name",
-                "text",
-                "location",
-                "favorite_count",
-                "retweet_count",
-                "queried_at",
-                "company",
-            ],
+            columns=col_names,
         )
         print(f"original size of df: {len(df)}")
 
@@ -154,12 +159,7 @@ if __name__ == "__main__":
         # Save a version with the last 31 days only
         df_last_31_days = df[df.created_at > datetime.now() - pd.to_timedelta("31day")]
 
-        df_last_31_days.to_csv(
-            last_31days_results_path,
-
-            index=False,
-            sep="\t",
-        )
+        last_31days_container = pd.concat(last_31days_container, df_last_31_days)
 
         # Print logs
         print(
@@ -177,3 +177,9 @@ if __name__ == "__main__":
         logs.to_csv(
             logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
         )
+
+    df_last_31_days.to_csv(
+        last_31days_results_path,
+        index=False,
+        sep="\t",
+    )
