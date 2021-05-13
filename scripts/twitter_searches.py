@@ -67,6 +67,8 @@ if __name__ == "__main__":
         else pd.DataFrame(columns=["id"])
     )
 
+    print(f"the length of it is {len(last_31days_results)}")
+
     # Create logs folder if it doesn't exist yet
     Path("./logs").mkdir(parents=True, exist_ok=True)
 
@@ -124,12 +126,14 @@ if __name__ == "__main__":
                 "company",
             ],
         )
+        print(f"original size of df: {len(df)}")
 
         # Identify what values are in last_results and not in df
         existing_ids = list(set(last_31days_results.id).intersection(df.id))
-
+        print(f"existing id's: {len(existing_ids)}")
         # Exclude rows that contain id's that we already have from a previous iteration
         df = df[~df.id.isin(existing_ids)]
+        print(f"new size of df: {len(df)}")
 
         # Append new rows to existing result set
         df.to_csv(
@@ -152,6 +156,7 @@ if __name__ == "__main__":
 
         df_last_31_days.to_csv(
             last_31days_results_path,
+
             index=False,
             sep="\t",
         )
