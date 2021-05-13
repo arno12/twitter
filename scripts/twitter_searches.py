@@ -45,7 +45,7 @@ if __name__ == "__main__":
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_token, access_token_secret)
 
-    api = tweepy.API(auth)
+    api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
     companies = ["blendle", "cafeyn", "milibris", "readly"]
 
@@ -179,7 +179,7 @@ if __name__ == "__main__":
             logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
         )
 
-    df_last_31_days_container.to_csv(
+    last_31days_container.to_csv(
         last_31days_results_path,
         index=False,
         sep="\t",
