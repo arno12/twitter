@@ -159,7 +159,7 @@ if __name__ == "__main__":
         # Save a version with the last 31 days only
         df_last_31_days = df[df.created_at > datetime.now() - pd.to_timedelta("31day")]
 
-        last_31days_container = pd.concat(last_31days_container, df_last_31_days)
+        last_31days_container = pd.concat([last_31days_container, df_last_31_days])
 
         # Print logs
         print(
