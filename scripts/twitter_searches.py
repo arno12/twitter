@@ -49,8 +49,8 @@ if __name__ == "__main__":
     Path("./results").mkdir(parents=True, exist_ok=True)
 
     # Load previous data if it exists
-    last_31days_results_path = Path("./results/twitter_searches_last_31_days.tsv")
-    new_results_path = Path("./results/twitter_searches_incremental.tsv")
+    last_31days_results_path: Path = Path("../results/twitter_searches_last_31_days.tsv")
+    new_results_path = Path("../results/twitter_searches_incremental.tsv")
 
     last_31days_results = (
         pd.read_csv(last_31days_results_path, sep="\t")
@@ -71,7 +71,7 @@ if __name__ == "__main__":
         else pd.DataFrame(columns=["imported_at", "company", "total_rows"])
     )
 
-    # intialize empty df for last 31 days - so we can add each company tweet id's to it in the loop
+    # initialize empty df for last 31 days - so we can add each company tweet id's to it in the loop
     col_names = [
         "id",
         "iso_language_code",
