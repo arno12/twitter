@@ -46,7 +46,7 @@ if __name__ == "__main__":
     date_now = datetime.now().strftime("%Y_%m_%d")
 
     # create results folder if it doesn't exist yet
-    Path("./results").mkdir(parents=True, exist_ok=True)
+    Path("../results").mkdir(parents=True, exist_ok=True)
 
     # Load previous data if it exists
     last_31days_results_path: Path = Path("../results/twitter_searches_last_31_days.tsv")
@@ -61,9 +61,9 @@ if __name__ == "__main__":
     print(f"the length of it is {len(last_31days_results)}")
 
     # Create logs folder if it doesn't exist yet
-    Path("./logs").mkdir(parents=True, exist_ok=True)
+    Path("../logs").mkdir(parents=True, exist_ok=True)
 
-    logs_path = Path("./logs/logs.csv")
+    logs_path = Path("../logs/logs.csv")
 
     logs = (
         pd.read_csv(logs_path)
@@ -142,7 +142,7 @@ if __name__ == "__main__":
 
         # Upload to s3
         upload_file(
-            "./results/twitter_searches_incremental.tsv",
+            "../results/twitter_searches_incremental.tsv",
             "arno12-tweets",
             "all-tweets/twitter_searches_incremental.tsv",
         )
