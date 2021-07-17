@@ -59,12 +59,15 @@ if __name__ == "__main__":
         else pd.DataFrame(columns=["id"])
     )
 
+    print(f"The loading size of the file is: {len(last_31days_results)}")
+    print(f"Located at {last_31days_results_path}")
+
     last_31days_results = last_31days_results[
         last_31days_results["created_at"].apply(lambda t: t.tz_localize(None))
         > (pd.to_datetime("today") - pd.to_timedelta("31day"))
     ]
 
-    print(f"the length of the last 31 days file is {len(last_31days_results)}")
+    print(f"the length of the last 31 days file after filtering is {len(last_31days_results)}")
 
     # Create logs folder if it doesn't exist yet
     Path("./logs").mkdir(parents=True, exist_ok=True)
