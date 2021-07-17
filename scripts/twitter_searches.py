@@ -2,12 +2,11 @@ import logging
 import boto3
 from botocore.exceptions import ClientError
 import tweepy
-import time
-import csv
 import pandas as pd
 from pathlib import Path
 from datetime import datetime, timedelta
 from settings import consumer_key, consumer_secret, access_token, access_token_secret
+
 
 def upload_file(file_name, bucket, object_name=None):
     """Upload a file to an S3 bucket
@@ -53,10 +52,17 @@ if __name__ == "__main__":
     new_results_path = Path("./results/twitter_searches_incremental.tsv")
 
     last_31days_results = (
-        pd.read_csv(last_31days_results_path, sep="\t")
+        pd.read_csv(
+            last_31days_results_path, sep="\t", parse_dates=["queried_at", "created_at"]
+        )
         if last_31days_results_path.is_file()
         else pd.DataFrame(columns=["id"])
     )
+
+    last_31days_results = last_31days_results[
+        last_31days_results["created_at"].apply(lambda t: t.tz_localize(None))
+        > (pd.to_datetime("today") - pd.to_timedelta("31day"))
+    ]
 
     print(f"the length of it is {len(last_31days_results)}")
 
@@ -122,23 +128,25 @@ if __name__ == "__main__":
             data=locs,
             columns=col_names,
         )
-        print(f"original size of df: {len(df)}")
+        print(f"original size of new df for {company}: {len(df)}")
 
         # Identify what values are in last_results and not in df
         existing_ids = list(set(last_31days_results.id).intersection(df.id))
-        print(f"existing id's: {len(existing_ids)}")
+        print(f"existing id's of {company} in last 31 days: {len(existing_ids)}")
         # Exclude rows that contain id's that we already have from a previous iteration
-        df = df[~df.id.isin(existing_ids)]
-        print(f"new size of df: {len(df)}")
+        new_ids = df[~df.id.isin(existing_ids)]
 
         # Append new rows to existing result set
-        df.to_csv(
+        new_ids.to_csv(
             new_results_path,
             mode="a",
             header=not Path(new_results_path).is_file(),
             index=False,
             sep="\t",
         )
+
+        # Print logs
+        print(f"Done! Wrote a total of {len(new_ids)} new row(s) for {company}")
 
         # Upload to s3
         upload_file(
@@ -147,17 +155,9 @@ if __name__ == "__main__":
             "all-tweets/twitter_searches_incremental.tsv",
         )
 
-        # Save a version with the last 31 days only
-        df_last_31_days = df[df.created_at > datetime.now() - pd.to_timedelta("31day")]
-
-        last_31days_container = pd.concat([last_31days_container, df_last_31_days])
-        print(f"new length of last 31 days file is {len(last_31days_container)}")
-
-        # Print logs
+        last_31days_container = pd.concat([last_31days_container, new_ids])
         print(
-            "Done! Wrote a total of {} new row(s) for {}.".format(
-                len(df.index), company
-            )
+            f"The new length of the last 31 days file is {len(last_31days_container)}"
         )
 
         # Generate logs
