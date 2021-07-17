@@ -64,7 +64,7 @@ if __name__ == "__main__":
         > (pd.to_datetime("today") - pd.to_timedelta("31day"))
     ]
 
-    print(f"the length of it is {len(last_31days_results)}")
+    print(f"the length of the last 31 days file is {len(last_31days_results)}")
 
     # Create logs folder if it doesn't exist yet
     Path("./logs").mkdir(parents=True, exist_ok=True)
@@ -90,8 +90,6 @@ if __name__ == "__main__":
         "queried_at",
         "company",
     ]
-
-    last_31days_container = pd.DataFrame(columns=col_names)
 
     for company in companies:
         print("Starting with {}...".format(company))
@@ -155,9 +153,9 @@ if __name__ == "__main__":
             "all-tweets/twitter_searches_incremental.tsv",
         )
 
-        last_31days_container = pd.concat([last_31days_container, new_ids])
+        last_31days_results = pd.concat([last_31days_results, new_ids])
         print(
-            f"The new length of the last 31 days file is {len(last_31days_container)}"
+            f"The new length of the last 31 days file is {len(last_31days_results)}"
         )
 
         # Generate logs
@@ -170,7 +168,7 @@ if __name__ == "__main__":
             logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
         )
 
-    last_31days_container.to_csv(
+    last_31days_results.to_csv(
         last_31days_results_path,
         index=False,
         sep="\t",
