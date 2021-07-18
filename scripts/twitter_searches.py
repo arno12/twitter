@@ -62,9 +62,13 @@ if __name__ == "__main__":
     print(f"The loading size of the file is: {len(last_31days_results)}")
     print(f"Located at {last_31days_results_path}")
 
-    last_31days_results = last_31days_results[last_31days_results["created_at"] > date_since]
+    last_31days_results = last_31days_results[
+        last_31days_results["created_at"] > date_since
+    ]
 
-    print(f"the length of the last 31 days file after filtering is {len(last_31days_results)}")
+    print(
+        f"the length of the last 31 days file after filtering is {len(last_31days_results)}"
+    )
 
     # Create logs folder if it doesn't exist yet
     Path("./logs").mkdir(parents=True, exist_ok=True)
@@ -98,11 +102,9 @@ if __name__ == "__main__":
         tweets = tweepy.Cursor(
             api.search,
             q=query,
-            # geocode="51.969685,4.051642,1000km",
             count=100,
             result_type="recent",
             include_entities=True,
-            since=date_since,
             tweet_mode="extended",
         ).items(1000)
         locs = [
@@ -131,6 +133,7 @@ if __name__ == "__main__":
         # Identify what values are in last_results and not in df
         existing_ids = list(set(last_31days_results.id).intersection(df.id))
         print(f"existing id's of {company} in last 31 days: {len(existing_ids)}")
+
         # Exclude rows that contain id's that we already have from a previous iteration
         new_ids = df[~df.id.isin(existing_ids)]
 
@@ -154,9 +157,7 @@ if __name__ == "__main__":
         )
 
         last_31days_results = pd.concat([last_31days_results, new_ids])
-        print(
-            f"The new length of the last 31 days file is {len(last_31days_results)}"
-        )
+        print(f"The new length of the last 31 days file is {len(last_31days_results)}")
 
         # Generate logs
         logs = pd.DataFrame(
