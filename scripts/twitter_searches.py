@@ -62,10 +62,7 @@ if __name__ == "__main__":
     print(f"The loading size of the file is: {len(last_31days_results)}")
     print(f"Located at {last_31days_results_path}")
 
-    last_31days_results = last_31days_results[
-        last_31days_results["created_at"].apply(lambda t: t.tz_localize(None))
-        > (pd.to_datetime("today") - pd.to_timedelta("31day"))
-    ]
+    last_31days_results = last_31days_results[last_31days_results["created_at"] > date_since]
 
     print(f"the length of the last 31 days file after filtering is {len(last_31days_results)}")
 
