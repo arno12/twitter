@@ -1,120 +1,4 @@
 id	iso_language_code	created_at	screen_name	text	location	favorite_count	retweet_count	queried_at	company
-1453843330073235460	nl	2021-10-28 21:57:15	nieuwsselectie	Onbeperkt tijdschriften en het nieuws van alle k(r)anten. Probeer het nu gratis uit: https://t.co/ZGrWV66GTy #blendle #nieuws https://t.co/De7Z6CgsQo		0	5	2021-10-29 06:00:06.126840	blendle
-1453820189481607172	nl	2021-10-28 20:25:18	nieuwsselectie	Onbeperkt tijdschriften en het nieuws van alle k(r)anten. Probeer gratis: https://t.co/ZGrWV66GTy #blendle #nieuws https://t.co/k4izWGVs46		0	5	2021-10-29 06:00:06.126882	blendle
-1453788026577039370	nl	2021-10-28 18:17:30	BlendleNL	"🏆 Vandaag het beste gelezen:
-
-@OzcanAkyol ziet veel ‘barbarij’ in ons land. Dus geeft hij het kabinet advies in het @ADnl.
-
-👇
-
-https://t.co/bijZ4Y1UpB"	Utrecht	1	0	2021-10-29 06:00:06.126909	blendle
-1453771469968875520	nl	2021-10-28 17:11:42	BolandLW	Lees dit artikel uit AD: Grapperhaus heeft al een paar keer gezegd dat grenzen zijn bereikt https://t.co/scM74nmIuv		0	0	2021-10-29 06:00:06.126934	blendle
-1453708927363866631	nl	2021-10-28 13:03:11	jvanvugt	Lees dit artikel uit Trouw: Het Beste Zangers-effect: hit na hit na hit https://t.co/t5ND3Xiu8f ft @wilbertmutsaers @AnnekeAnnique en @RowwenHeze	Amsterdam	6	2	2021-10-29 06:00:06.126958	blendle
-1453686458976456707	en	2021-10-28 11:33:54	joosterman	"(small thread about a change in our recommendation infra)
-At Blendle (and thus Cafeyn) we are really close to switching to a GRPC-based recommendation service 🎉Our current/previous setup was to prepare recommendations and store them in a DB, allowing backend to fetch them./1"	Rotterdam	0	0	2021-10-29 06:00:06.126983	blendle
-1453671265856892928	nl	2021-10-28 10:33:32	zittingszaal14	@D0N_P3DR0 @M_nke @ArmEagle @margreetdeboer En dan noemen we het Blendle.	Groningen, Nederland	1	0	2021-10-29 06:00:06.127007	blendle
-1453659195249672195	de	2021-10-28 09:45:34	ToniWirz1	Manchmal lohnt sich der Blick in die NZZ doch: Die alltägliche Frauenverachtung https://t.co/MbSdSlQwPI	Zürich, Schweiz	0	0	2021-10-29 06:00:06.127030	blendle
-1453852806339825665	fr	2021-10-28 22:34:54	TomADP_	"@SobekLe @hedoniisme Libération : Metaverse En route vers l’avatar
- https://t.co/2haMszCoej
-
-Cet article Libé aussi, plus long et en français qui était sorti à la même période"		1	0	2021-10-29 06:00:26.056617	cafeyn
-1453851680831942683	fr	2021-10-28 22:30:26	TomADP_	"@SobekLe @hedoniisme The Week : Briefing. Welcome to the metaverse
- https://t.co/scuhUtGnjy
-
-Je sais pas si vous avez accès et c’est en anglais, mais il y avait cet article qui était sorti il y a quelques semaines qui expliquait assez bien  (je peux screen si besoin)"		2	0	2021-10-29 06:00:26.056642	cafeyn
-1453798675482914839	fr	2021-10-28 18:59:49	JeanDeFlorette7	"Pour moi le Trump français, c'est @EmmanuelMacron !
-Challenges ,N° 716 ,28 oct. 2021
-@ZemmourEric c'est l'extrême droite. Disons les choses clairement !
-https://t.co/8Vx8i7lwVN"		1	1	2021-10-29 06:00:26.056657	cafeyn
-1453755464756473859	fr	2021-10-28 16:08:06	Lisa_Wyler	@mlhardy75 J'ai lu le papier en entier sur Cafeyn à l'instant, j'ai presque envie d'acheter le livre, mais je ne sais pas quand je vais avoir le temps de le lire ^^	Bordeaux	0	0	2021-10-29 06:00:26.056670	cafeyn
-1453745838526767109	fr	2021-10-28 15:29:51	_mind	Cafeyn acquiert Kidjo pour se développer en dehors de la presse https://t.co/2PF5hRrdGf via @_mind	Paris	0	0	2021-10-29 06:00:26.056682	cafeyn
-1453726510536294408	fr	2021-10-28 14:13:03	percheun	"Si vous souhaitez un abonnement @cafeyn_fr, je déconseille l'option @REDbySFR qui ne donne pas accès au catalogue complet de Cafeyn.
-Ne faites pas l'erreur de vous abonner puis de résilier dans la foulée, l'accès à l'application sera bloqué bien que vous aurez déboursé 10 €."	Finistère, Bretagne	0	0	2021-10-29 06:00:26.056695	cafeyn
-1453685272399519744	fr	2021-10-28 11:29:11	cafeyn_fr	@HansEichbaum Bonjour, nous vous remercions pour votre message. Pourriez-vous nous faire parvenir l'adresse email liée à votre compte Cafeyn ?	France	0	0	2021-10-29 06:00:26.056718	cafeyn
-1453680933983371264	fr	2021-10-28 11:11:57	cafeyn_fr	En ce moment : Essayez Cafeyn pendant 1 mois gratuitement et découvrez la collection d’articles d’@alexvizorek ainsi que des milliers de journaux et magazines ! https://t.co/h4bPJjntiu https://t.co/TE9MzsrbiE	France	3	1	2021-10-29 06:00:26.056730	cafeyn
-1453678559378255874	fr	2021-10-28 11:02:31	cafeyn_fr	@leprincedebeLR Bonjour, nous sommes navrés pour la réponse tardive. Quel est le message d'erreur rencontré ?	France	1	0	2021-10-29 06:00:26.056742	cafeyn
-1453653758185988098	fr	2021-10-28 09:23:58	78Vaillant	"Le Point : L’éditorial. Vivement que les politiques reprennent le pouvoir !
- https://t.co/tMtXOlWXKj"	PARIS XIV° rue du Montparnasse	0	0	2021-10-29 06:00:26.056755	cafeyn
-1453614701519245318	fr	2021-10-28 06:48:46	jpp75012	"Le Parisien Paris : Face au crack, les habitants se sentent abandonnés par leur députée
-Quelles convictions ⁦@lamiaela⁩ !!!!!!😡 https://t.co/JtG8KgM7hq"	Paris 12ème	0	0	2021-10-29 06:00:26.056767	cafeyn
-1453613757532413952	fr	2021-10-28 06:45:01	jpp75012	"Le Parisien Paris : Face au crack, les habitants se sentent abandonnés par leur députée
-⁦@lamiaela⁩ quel courage politique !!!!! #Paris20 ⁦@PS_Paris⁩  https://t.co/JtG8KgM7hq"	Paris 12ème	0	0	2021-10-29 06:00:26.056780	cafeyn
-1453869484016484359	en	2021-10-28 23:41:11	expremesph	"🌻꒰ 1 month subscriptions ꒱‼🔥💯
-marvel unlimited - ₱60
-shaw academy - ₱50
-solo learn - ₱50
-stan - ₱40
-epidemic sound - ₱50
-pureflix - ₱60
-readly - ₱40
-calm - ₱50
-acorn tv - ₱50
-britbox- ₱60
-
-‼DM for other apps
-
-:philippines mura
-
-MOP: GCash 💸
-DM for inquiries 📨"		1	1	2021-10-29 06:00:37.557200	readly
-1453858868237193217	en	2021-10-28 22:59:00	The_Gentleman_M	Issue 29 of The Gentleman Magazine is now out featuring the Rolls-Royce Wraith Black Badge on the cover. It's now available to read in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM or on Yumpu News https://t.co/sfJ0MQIIfC https://t.co/wMlLy6GTnF	United Kingdom	0	0	2021-10-29 06:00:37.557245	readly
-1453858136448720899	sv	2021-10-28 22:56:05	silvercitybree1	silvercitybreeders har mycket spännande på gång! Vi välkomnar She Loves You till vår högkvalitativa stopark och vi signerar bokningar för spännande hingstar som Readly Express, Maharajah och Calgary Games 💪🏻 Vi ses i vinnarcirkeln! https://t.co/MnfRpPoK6B	Sala, Sverige	1	0	2021-10-29 06:00:37.557273	readly
-1453844023341244416	en	2021-10-28 22:00:00	The_Gentleman_M	Discover Madhu's of Mayfair within the latest edition of Thee Gentleman Magazine that isnow available to read in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM or on Yumpu News https://t.co/sfJ0MQIIfC #MadhusMayfair #food https://t.co/7DKrKw6fLU	United Kingdom	0	0	2021-10-29 06:00:37.557298	readly
-1453841029107437568	en	2021-10-28 21:48:07	fth_nix	"Whaaaaaat the @TheMagPi already droppedon @readly and therefore everywhere:
-
-Getting a physical subscription...
-
-AllI'm saying keeping digital too.
-
-But i want that pi: https://t.co/ivVLiPpCOw"	London uk	1	0	2021-10-29 06:00:37.557323	readly
-1453837848034136074	sv	2021-10-28 21:35:28	ninalundstedtfi	Testar @readly . Läser och lär mig sånt som The History Of Magic. Typ. (All About History). NICE. 🌟 https://t.co/MjAr4vTCre	Iggesund, Sverige	0	0	2021-10-29 06:00:37.557348	readly
-1453828922290827265	en	2021-10-28 21:00:00	The_Gentleman_M	Bombay Sapphire Raises a Glass to Nature's Finest Flavours with @BombaySapphire Premier Cru Murcian Lemon. Find out more in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM or on Yumpu News https://t.co/sfJ0MQIIfC  #drinks https://t.co/7pEpFCoeId	United Kingdom	0	0	2021-10-29 06:00:37.557372	readly
-1453798723427962891	en	2021-10-28 19:00:00	The_Gentleman_M	Discover Marine By Breguet within the latest edition of The Gentleman Magazine that is now available to read in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc @MontresBreguet https://t.co/ZrFipizjQf	United Kingdom	0	0	2021-10-29 06:00:37.557396	readly
-1453783625636499458	en	2021-10-28 18:00:01	The_Gentleman_M	"Discover our Review of the Rolls-Royce Wraith Black Badge within the latest edition now by reading in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc
-#RollsRoyce #luxury #supercar https://t.co/IDdJ1rA9N9"	United Kingdom	0	1	2021-10-29 06:00:37.557420	readly
-1453768535830933507	en	2021-10-28 17:00:03	The_Gentleman_M	Discover Opulence in the Heart of Great Queen Street with Hotel, Middle Eight. Find our more by reading in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc #LuxuryTravel https://t.co/6msli0eYGZ	United Kingdom	1	0	2021-10-29 06:00:37.557446	readly
-1453753423627653131	en	2021-10-28 16:00:00	The_Gentleman_M	The @Porsche 911 GT3: From Racing Car Straight to Series Production Mode. Find out more in the latest issue by reading in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM or on Yumpu News https://t.co/sfJ0MQIIfC  #porsche911 https://t.co/ObziufgQZh	United Kingdom	0	0	2021-10-29 06:00:37.557469	readly
-1453738329028055042	en	2021-10-28 15:00:01	The_Gentleman_M	The Return of The Night Diver. Discover more within the latest issue of The Gentleman Magazine by reading either in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc @TAGHeuer #Watches https://t.co/S4yD8VSwI1	United Kingdom	4	1	2021-10-29 06:00:37.557493	readly
-1453723231765073920	en	2021-10-28 14:00:01	The_Gentleman_M	Discover #London 's Lateest Hot Sports Recommended By Thee Gentleman Magazine. To find out more simply read the latest issue in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc https://t.co/geaBbBavvH	United Kingdom	0	0	2021-10-29 06:00:37.557517	readly
-1453708126880940032	en	2021-10-28 13:00:00	The_Gentleman_M	"Discover the Spirit of Big Band Gold Crystal by @Hublot within the latest issue which is now available to read in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc 
-#Hublot  #luxury https://t.co/m804HZAUMb"	United Kingdom	0	0	2021-10-29 06:00:37.557540	readly
-1453694251976511491	en	2021-10-28 12:04:52	Josepds81	Sign up to get 1 month entirely for free and start reading right away. I love it and think you will too! https://t.co/qR8YQsWQsB	London	0	0	2021-10-29 06:00:37.557564	readly
-1453693042993598467	en	2021-10-28 12:00:04	GNRailUK	"Looking for a good read?
-
-Sign up to our eNews and get 3 months of free*, unlimited reading from top magazines and newspapers with the Readly app📱📰
-
-Hurry – the offer ends on 31 October! 
-
-👉https://t.co/O8AUKglA4H
-
-@readly https://t.co/56ppE0mcE9"	UK	0	0	2021-10-29 06:00:37.557587	readly
-1453693042335092737	en	2021-10-28 12:00:04	SouthernRailUK	"Looking for a good read?
-
-Sign up to our eNews and get 3 months of free*, unlimited reading from top magazines and newspapers with the Readly app📱📰
-
-Hurry – the offer ends on 31 October! 
-
-👉https://t.co/ooSCWNbuwl
-
-@readly https://t.co/Gesgw6aUDG"	UK	0	0	2021-10-29 06:00:37.557611	readly
-1453693041336782849	en	2021-10-28 12:00:04	TLRailUK	"Looking for a good read?
-
-Sign up to our eNews and get 3 months of free*, unlimited reading from top magazines and newspapers with the Readly app📱📰
-
-Hurry – the offer ends on 31 October! 
-
-👉https://t.co/lnBv4cv9vv
-
-@readly https://t.co/2k5qClZiFT"	UK	0	0	2021-10-29 06:00:37.557635	readly
-1453693025578672143	en	2021-10-28 12:00:00	The_Gentleman_M	Issue 29 of The Gentleman Magazine is now out featuring the Rolls-Royce Wraith Black Badge on the cover. It's now available to read in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM or on Yumpu News https://t.co/sfJ0MQIIfC https://t.co/15z0bySvcn	United Kingdom	0	1	2021-10-29 06:00:37.557659	readly
-1453677674304471045	en	2021-10-28 10:59:00	The_Gentleman_M	Bentley Celebrates 70th Anniversary of Design in Crewe. Find out more in the latest edition of The Gentleman Magazine, now available to read in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM @BentleyMotors @BentleyComms https://t.co/RNcBNzbTia	United Kingdom	0	2	2021-10-29 06:00:37.557682	readly
-1453662835171602437	en	2021-10-28 10:00:02	The_Gentleman_M	Love #luxury #watches ? Then why not discover the #Timepieces section with The Gentleman Magazine that highlights the best watchmaking in the world. Read in Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm #luxurylifestyle https://t.co/IHhYUp9aCw	United Kingdom	0	0	2021-10-29 06:00:37.557705	readly
-1453649473381482501	en	2021-10-28 09:06:56	AdviceCooper	@PearlThusi The option is readly available in @Action4SA	johannesburg	0	0	2021-10-29 06:00:37.557729	readly
-1453647732707663874	en	2021-10-28 09:00:01	The_Gentleman_M	Love #supercars ? Discover the #Automotive section within The Gentleman Magazine that's now available to readin Print https://t.co/7lnULUxlm5 Online for FREE https://t.co/25UxmQRVCO On Readly https://t.co/i58kAPGSVm or on Yumpu News https://t.co/sfJ0MR0jEc https://t.co/Y8aBEJmaQI	United Kingdom	0	0	2021-10-29 06:00:37.557752	readly
-1453640021261443078	en	2021-10-28 08:29:23	The_Gentleman_M	Issue 29 of The Gentleman Magazine is now out featuring the Rolls-Royce Wraith Black Badge on the cover. It's now available to read in Print https://t.co/7lnULUfJXv Online for FREE https://t.co/25UxmR9wum On Readly https://t.co/i58kAPphwM or on Yumpu News https://t.co/sfJ0MQIIfC https://t.co/8PQ9YUSCsc	United Kingdom	0	1	2021-10-29 06:00:37.557776	readly
-1453606713936912386	sv	2021-10-28 06:17:01	CisionNews	Läslovet: 1 av 5 vuxna läser tillsammans med sina barn varje dag enligt Readlys undersökning https://t.co/f61Ld5hmzU		0	0	2021-10-29 06:00:37.557799	readly
-1453596186049335297	en	2021-10-28 05:35:11	CisionNews	Nomination Committee appointed ahead of 2022 Annual General Meeting of Readly International AB (publ) https://t.co/UAojxNzE7N		0	0	2021-10-29 06:00:37.557822	readly
-1453595946848116740	sv	2021-10-28 05:34:14	CisionNews	Valberedning utsedd inför årsstämman 2022 i Readly International AB (publ) https://t.co/4vSoefwAVj		0	0	2021-10-29 06:00:37.557845	readly
 1454240191854653440	nl	2021-10-30 00:14:14	nieuwsselectie	Onbeperkt tijdschriften en het nieuws van alle k(r)anten. Probeer gratis: https://t.co/ZGrWV66GTy #blendle #lezen https://t.co/B3o2eMxT7h		0	1	2021-10-30 06:00:06.865909	blendle
 1454181353898061829	nl	2021-10-29 20:20:26	rrustema	De laatste keer dat ik blij werd van het lezen van een stuk in  @DeGroene kan ik me niet herinneren. Maar zojuist! https://t.co/BIUI0sDEtI Enjoy, over de stand van zaken in Turkije. Het boek van @AmsterdamLale kan daar een megasucces worden, de jeugd is er klaar voor.	Amsterdam, the Netherlands	0	0	2021-10-30 06:00:06.865943	blendle
 1454099942180597763	en	2021-10-29 14:56:56	mwYboy	"https://t.co/vh7v0RGb6U
@@ -3854,3 +3738,75 @@ https://t.co/x5lLAiXa18"	Lappeenranta, Suomi	1	0	2021-11-27 06:00:16.064342	read
 Außerdem kannst Du dir über meinen Link ein 25€-Amazongutschein sichern #BlackFriday https://t.co/7N7kSZkZjl"	Deutschland	0	0	2021-11-27 06:00:16.064405	readly
 1463917788716797952	en	2021-11-25 17:09:33	billgossmedia	"Digital subscription fatigue? Not according to Readly
 https://t.co/nf5Ym0W5La"	Cambridge, England	0	1	2021-11-27 06:00:16.064499	readly
+1464691997537710080	nl	2021-11-27 20:25:59	Oluja50	"We zitten nog 1 tot 1,5 jaar met #corona, mensen. Het is niet anders, en nu iedereen gewoon lief doen.
+
+https://t.co/XEzUXEQ0ZC"		2	0	2021-11-28 06:00:06.126850	blendle
+1464684979284320256	de	2021-11-27 19:58:06	laurensvanlier	Verdonschot https://t.co/1KfCCwb9PV		0	0	2021-11-28 06:00:06.126875	blendle
+1464672561418194951	nl	2021-11-27 19:08:45	Jopinie	@splitvision @matthijskox82 @radboudumc In mijn interview met hem stuitte ik ook al op heel wat bedenkelijke beweringen. https://t.co/luPuwT7FEk	Amsterdam	2	0	2021-11-28 06:00:06.126888	blendle
+1464619369800085521	nl	2021-11-27 15:37:23	NicolettevanB	Lees dit artikel uit LINDA.: Bullebakkenland https://t.co/bOVgE3Hyb2	Voorhout, The Netherlands	0	0	2021-11-28 06:00:06.126900	blendle
+1464614342956138496	nl	2021-11-27 15:17:25	Piet_Hartman	Ilja Leonard Pfeijffer. Lees dit artikel uit HP/De Tijd: Nederland kan een hoop leren van het duidelijke en consequente coronabeleid van Italië https://t.co/JOKsK1fdhA	Altena, Jeruzalem & Tehran & Marrakech	0	0	2021-11-28 06:00:06.126912	blendle
+1464554374638751759	nl	2021-11-27 11:19:07	thomasbruning	Agressie tegen journalisten, hulpverleners, onderwijzers, we kunnen er zelf wat aan doen: Lees dit artikel uit LINDA.: Bullebakkenland https://t.co/0vQpHjKPQJ	Amsterdam	0	2	2021-11-28 06:00:06.126924	blendle
+1464550160999010308	und	2021-11-27 11:02:23	ObmaPascal	https://t.co/7MuSJtJTUx	Arnhem, Nederland	0	0	2021-11-28 06:00:06.126936	blendle
+1464523039815745539	nl	2021-11-27 09:14:36	pimcbe	“Ik zoek het zelf wel uit” de mentaliteit van de democratische, tolerante Nederlandse burger.  https://t.co/hrO1jcvYL3	Amsterdam, Mumbai, Sao Paolo,	0	0	2021-11-28 06:00:06.126948	blendle
+1464520588924440580	de	2021-11-27 09:04:52	VolkerK_	@_phoeni @kulturbolschewi (Ich hab seit Jahren einen Account bei blendle, aber nur 2x davon was gehabt...)	Wolf 359	3	0	2021-11-28 06:00:06.126960	blendle
+1464519789540425732	de	2021-11-27 09:01:41	_phoeni	"@VolkerK_ @kulturbolschewi Versuche es mal bei https://t.co/5Uz8Xq1xrB. Ich weiß aber aktuell nicht, ob die auch Artikel verkaufen, die rein online veröffentlicht werden, was ja bei der ZEIT oft der Fall ist.
+
+https://t.co/WrhZIptCOe"		1	0	2021-11-28 06:00:06.126973	blendle
+1464518313288118272	nl	2021-11-27 08:55:49	martijnmollers	Lees dit artikel uit BN De Stem - Breda: Tekort aan personeel tast onze welvaart aan https://t.co/ODvw2ReEOs		0	0	2021-11-28 06:00:06.126985	blendle
+1464517277676711939	nl	2021-11-27 08:51:43	thomasdeveen	"Mooi, inzichtelijk en empathisch stuk van boerenzoon ⁦@gerbrandbakker⁩ in Trouw: Ik weet waar die rouwdouwboeren vandaan komen.
+
+(Doe ik nog iemand een plezier met een Blendle-linkje, eigenlijk?) https://t.co/uyEOPwrH7S"	Amsterdam, Netherlands	0	0	2021-11-28 06:00:06.126997	blendle
+1464513984669884421	nl	2021-11-27 08:38:37	martijnmollers	"Stop de verhuftering in Nederland!
+
+Lees dit artikel uit LINDA.: Bullebakkenland https://t.co/qVhdh7GrFB"		1	0	2021-11-28 06:00:06.127009	blendle
+1464510981783048196	nl	2021-11-27 08:26:42	martijnmollers	Lees dit artikel uit Knack: Ongevaccineerden zijn niet ‘de nieuwe Joden’ https://t.co/n5ELaacNWa		0	0	2021-11-28 06:00:06.127021	blendle
+1464494808890855425	nl	2021-11-27 07:22:26	willemlaurier	Lees dit artikel uit HP/De Tijd: Nederland kan een hoop leren van het duidelijke en consequente coronabeleid van Italië https://t.co/617YupUkM5	Gouda, Nederland	0	0	2021-11-28 06:00:06.127033	blendle
+1464479606157856771	nl	2021-11-27 06:22:01	FritsBroos	Geen bestuurders maar slimme mensen mensen derhalve die begrijpen wat er echt leeft onder de mensen. https://t.co/K5LeuqRdbf	Zeeland	0	0	2021-11-28 06:00:06.127044	blendle
+1464661375754682374	en	2021-11-27 18:24:18	Altavistagoogle	@dcseifert Apple TV+ can be done via their website. For news, I also miss Texture. Readly, Cafeyn, Press Reader, Magzter, and Scribd are device agnostic competitors, each with pros and cons. https://t.co/IwbxkQERCg	Moncton, NB, Canada	0	0	2021-11-28 06:00:10.043963	cafeyn
+1464658459148828673	fr	2021-11-27 18:12:43	nicolas760	La phrase de @GilbertDeray mérite d’être citée. Malheureusement l’article n’est lisible que par les abonnés (ou sur @cafeyn_fr ) https://t.co/BFYvkJovNm	Paris	0	0	2021-11-28 06:00:10.043988	cafeyn
+1464774332601692160	en	2021-11-28 01:53:09	ksnkisses	"✰★ educational premiums
+
+🏷️ lfb lf prem prems premium ph mura murang quillbot bartleby kahoot 360 duolingo plus quizlet microsoft 365 family skillshare grammarly solo shared zookal numerade wevideo readly prezi blinkist venngage udemy shaw academy classtime educative"	open only from 9am-11pm	1	0	2021-11-28 06:00:15.915523	readly
+1464774000672841737	en	2021-11-28 01:51:50	SerendipitysSh1	"legends dias 
+»  lol wildcores
+»  genshin crystals
+»  valorant points
+»  cod/garena shells
+»  pubg mobile uc
+»  ros diamonds
+»  zepeto zems
+
+〚 other premiums 〛
+»   calm premifum
+»   dropbox 
+»   pureflix
+»   shudder
+»   tidal hifi
+»  stan
+»  numerade
+»  readly
+»  wevideo
+Etc.."	MODE OF PAYMENT ( GCASH )	0	0	2021-11-28 06:00:15.915566	readly
+1464720199190470657	en	2021-11-27 22:18:03	joelmeadows1	"Read Tripwire digitally on Readly including the brand new Tripwire winter special 2021 now
+https://t.co/e28lKVp2I6"	London	1	0	2021-11-28 06:00:15.915594	readly
+1464675203674521601	en	2021-11-27 19:19:15	slugdaddy	There is an amazingly uplifting article in this weeks Saturday (@guardian). Lovely photography as well. https://t.co/FU8SfR6RHu https://t.co/fv4vsO6Yzx		0	0	2021-11-28 06:00:15.915619	readly
+1464661639656095747	de	2021-11-27 18:25:21	hallomonster	@fuchsmanguste Der normale Monatsbetrag ist ja mit 9,99€ höher, aber ich verstehe, was du meinst. @maniaconline und @GameStar_de sind beispielsweise dabei, @t3n aber nicht. Würde mich auch interessieren, ob/wann sich Readly wirklich rentiert.	⚓	0	0	2021-11-28 06:00:15.915643	readly
+1464657925696372740	fr	2021-11-27 18:10:36	cpiersanti	#Trotting. Saison de monte 2021 en Suède...source @SvenskTravsport : 4459 juments saillies...quatre étalons liste pleine (150 saillies): Maharajah, Nuncio, Readly Express et Who’s Who....	FRANCE (Paris)	7	3	2021-11-28 06:00:15.915692	readly
+1464656590049628169	en	2021-11-27 18:05:17	BreedersCourse	"There were top-3-year-olds in the Breeders Course Bonus Race at Solvalla today. 
+The best was High Line Pellini - a full brother to Readly Express."		2	2	2021-11-28 06:00:15.915714	readly
+1464645290561097733	en	2021-11-27 17:20:23	DundonWayne	Botswana Government says that the new COVID variant was first detected in four patients who were FULLY VACCINATED for COVID.The vaccinated carry higher viral load then unvaccinated.( meaning they spread virus more readly when not sick). Unvaccinated spread only when sick https://t.co/HBuTuQVkMY		0	0	2021-11-28 06:00:15.915737	readly
+1464606907457576969	fr	2021-11-27 14:47:52	KevinBaudon	"#Trot It’s A Girl, la propre sœur de @BoldEagle_Trot, termine 🥉 à @Solvalla. 
+Longtemps nez au vent, elle se montre courageuse dans une épreuve survolée par High Line Pellini, propre frère (hongre) de… Readly Express
+
+⏱ : 1’14’’5 (2.140 mètres - Autostart) https://t.co/t3X6L1SPoI"	Ile-de-France, France	2	0	2021-11-28 06:00:15.915761	readly
+1464597928161464322	sv	2021-11-27 14:12:11	giffelpucko	Readly Express-brorsan High Line Pellini tar karriärens första seger! Äger gör en viss Kjell Johansson som sedan tidigare har Very Kronos. https://t.co/WuLCYaaTEr	Malmö, Sverige	14	0	2021-11-28 06:00:15.915785	readly
+1464568967771664393	de	2021-11-27 12:17:06	hallomonster	"Falls ihr das selbst mal ausprobieren wollt: Ich hab den Deal von Chip genutzt. Da gibt es sie ersten drei Monate für 0,99€:
+https://t.co/0YcBJ6e7Qm"	⚓	2	0	2021-11-28 06:00:15.915808	readly
+1464568471816224773	de	2021-11-27 12:15:08	hallomonster	Ich probiere daher jetzt mal Readly aus. Ist ein Abo-System für die digitale Version von Zeitschriften. Hatte davon schon gehört und mir nun genauer angesehen. Die führen auch viele englische Zeitschriften. Der erste Eindruck ist zumindest sehr positiv. https://t.co/uMuJ2i5Fpo	⚓	1	0	2021-11-28 06:00:15.915832	readly
+1464540685038727169	fi	2021-11-27 10:24:43	KoivistoRami	Tämmönen nätti varsa Readly Expressistä... #ravit #sisyfos https://t.co/loiWCM0The		36	0	2021-11-28 06:00:15.915856	readly
+1464529136236609538	en	2021-11-27 09:38:50	yogajournalist	"Renowned #psychiatrist Dr David Enoch is 95 &amp; I spoke to him about his  @YLolfa memoir.
+So many stories - one about a child whose severe gut disorder was solved by treating her #mentalhealth.
+The gut-brain connection's stronger than we realise.
+Today's #TheWesternMail or @readly https://t.co/rrKmOO9n8T"	Cardiff, Wales	1	1	2021-11-28 06:00:15.915879	readly
+1464507373058359297	en	2021-11-27 08:12:21	LngCngDnh2	"@SocksOnSolana @KaeruKronicles I am readly
+@linhmai1998"		0	0	2021-11-28 06:00:15.915902	readly
