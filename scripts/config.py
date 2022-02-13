@@ -1,5 +1,0 @@
-mysql_user = "tweet_getter"
-mysql_pwd = "income_oman_summon_pounce"
-mysql_port = "8457"
-mysql_host = "192.168.1.107"
-mysql_db = "twitter"
