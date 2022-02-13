@@ -1,8 +1,8 @@
 import logging
 from datetime import datetime, timedelta
 from pathlib import Path
-from secrets import (ACCESS_TOKEN, AWS_ID, AWS_S3_BUCKET,
-                     AWS_S3_TWEETS_BACKUP_LOCATION, AWS_SECRET, mysql_db,
+from secrets import (ACCESS_TOKEN, ACCESS_TOKEN_SECRET, AWS_ID, AWS_S3_BUCKET,
+                     AWS_S3_TWEETS_BACKUP_LOCATION, AWS_SECRET, CONSUMER_KEY, CONSUMER_SECRET, mysql_db,
                      mysql_host, mysql_port, mysql_pwd, mysql_user)
 
 import pandas as pd
@@ -10,8 +10,8 @@ import tweepy
 from sqlalchemy import create_engine
 
 if __name__ == "__main__":
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
+    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
