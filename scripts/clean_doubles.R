@@ -15,15 +15,18 @@ twitter %>%
 
 # twitter %>% filter(lubridate::as_date(created_at) == '2021-04-14')  %>% glimpse()
 
-
 twitter2 <- twitter %>% 
   group_by(id) %>% 
   summarize(queried_at = min(queried_at))
 
 output <- twitter %>% 
-  inner_join(twitter2, by = c("id","queried_at")) 
+  inner_join(twitter2, by = c("id","queried_at")) %>% 
+  mutate(created_at = as.character(created_at),
+         queried_at = as.character(queried_at))
 
-output_last_30 <- output %>% filter(created_at > lubridate::today()-lubridate::days(31))
+output_last_30 <- output %>% filter(created_at > lubridate::today()-lubridate::days(31)) %>% 
+  mutate(created_at = as.character(created_at),
+         queried_at = as.character(queried_at))
 
 write_tsv(output, "self_dev/twitter_api_test/results/twitter_searches_incremental.tsv")
 write_tsv(output_last_30, "self_dev/twitter_api_test/results/twitter_searches_last_31_days.tsv")

@@ -7,12 +7,12 @@ library(tidytext)
 library(stopwords)
 
 # Load data
-twitter <- read_csv("../results/twitter_searches_incremental.csv") %>% 
+twitter <- read_tsv("https://raw.githubusercontent.com/arno12/twitter/master/results/twitter_searches_incremental.tsv") %>% 
   mutate(from_owned_account = str_detect(tolower(screen_name),'blendle|cafeyn|milibris')) 
 
 # 1. Show tweets collected over time
 twitter %>% 
-  group_by(date_clean = lubridate::date(queried_at),
+  group_by(date_clean = lubridate::date(created_at),
            company) %>% 
   count() %>% 
   ggplot(aes(date_clean,n, fill = company)) +
