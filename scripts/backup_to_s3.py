@@ -39,6 +39,5 @@ if __name__ == "__main__":
         storage_options={
             "key": AWS_ID,
             "secret": AWS_SECRET,
-            "token": ACCESS_TOKEN,
         },
     )
