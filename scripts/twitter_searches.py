@@ -103,7 +103,7 @@ if __name__ == "__main__":
         # Generate logs
         logs = pd.DataFrame(
             data=[[datetime.now().timestamp(), company, len(df.index)]],
-            columns=["timestamp", "company", "total_rows"],
+            columns=["timestamp", "company", "tweets"],
         )
 
         # Save logs to DB table
