@@ -1,39 +1,17 @@
 import logging
-import boto3
-from botocore.exceptions import ClientError
-import tweepy
-import pandas as pd
-from pathlib import Path
 from datetime import datetime, timedelta
-from settings import consumer_key, consumer_secret, access_token, access_token_secret
+from pathlib import Path
+from secrets import (ACCESS_TOKEN, ACCESS_TOKEN_SECRET, AWS_ID, AWS_S3_BUCKET,
+                     AWS_S3_TWEETS_BACKUP_LOCATION, AWS_SECRET, CONSUMER_KEY, CONSUMER_SECRET, mysql_db,
+                     mysql_host, mysql_port, mysql_pwd, mysql_user)
 
-
-def upload_file(file_name, bucket, object_name=None):
-    """Upload a file to an S3 bucket
-
-    :param file_name: File to upload
-    :param bucket: Bucket to upload to
-    :param object_name: S3 object name. If not specified then file_name is used
-    :return: True if file was uploaded, else False
-    """
-
-    # If S3 object_name was not specified, use file_name
-    if object_name is None:
-        object_name = file_name
-
-    # Upload the file
-    s3_client = boto3.client("s3")
-    try:
-        response = s3_client.upload_file(file_name, bucket, object_name)
-    except ClientError as e:
-        logging.error(e)
-        return False
-    return True
-
+import pandas as pd
+import tweepy
+from sqlalchemy import create_engine
 
 if __name__ == "__main__":
-    auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
-    auth.set_access_token(access_token, access_token_secret)
+    auth = tweepy.OAuthHandler(CONSUMER_KEY, CONSUMER_SECRET)
+    auth.set_access_token(ACCESS_TOKEN, ACCESS_TOKEN_SECRET)
 
     api = tweepy.API(auth, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
 
@@ -47,53 +25,26 @@ if __name__ == "__main__":
     # create results folder if it doesn't exist yet
     Path("./results").mkdir(parents=True, exist_ok=True)
 
-    # Load previous data if it exists
-    last_31days_results_path = Path("./results/twitter_searches_last_31_days.tsv")
-    new_results_path = Path("./results/twitter_searches_incremental.tsv")
+    # Load connection settings to MySQL
+    engine = create_engine(
+        f"mysql+mysqldb://{mysql_user}:{mysql_pwd}@{mysql_host}:{mysql_port}/{mysql_db}?charset=utf8mb4&binary_prefix=true",
+        encoding="utf-8",
+        pool_recycle=3600,
+        convert_unicode=True,
+        echo=True,
+    )
 
-    last_31days_results = (
-        pd.read_csv(
-            last_31days_results_path, sep="\t", parse_dates=["queried_at", "created_at"]
-        )
-        if last_31days_results_path.is_file()
-        else pd.DataFrame(columns=["id"])
+    # Load last 31 days data
+    last_31days_results = pd.read_sql(
+        "SELECT * FROM tweets WHERE queried_at >= DATE_SUB(CURRENT_DATE(), INTERVAL 31 DAY)",
+        con=engine,
+        parse_dates=["created_at", "queried_at"],
     )
 
     print(f"The loading size of the file is: {len(last_31days_results)}")
-    print(f"Located at {last_31days_results_path}")
-
-    last_31days_results = last_31days_results[
-        last_31days_results["created_at"] > date_since
-    ]
-
-    print(
-        f"the length of the last 31 days file after filtering is {len(last_31days_results)}"
-    )
-
-    # Create logs folder if it doesn't exist yet
-    Path("./logs").mkdir(parents=True, exist_ok=True)
-
-    logs_path = Path("./logs/logs.csv")
-
-    logs = (
-        pd.read_csv(logs_path)
-        if logs_path.is_file()
-        else pd.DataFrame(columns=["imported_at", "company", "total_rows"])
-    )
 
     # intialize empty df for last 31 days - so we can add each company tweet id's to it in the loop
-    col_names = [
-        "id",
-        "iso_language_code",
-        "created_at",
-        "screen_name",
-        "text",
-        "location",
-        "favorite_count",
-        "retweet_count",
-        "queried_at",
-        "company",
-    ]
+    col_names = last_31days_results.columns.values.tolist()
 
     for company in companies:
         print("Starting with {}...".format(company))
@@ -138,39 +89,28 @@ if __name__ == "__main__":
         new_ids = df[~df.id.isin(existing_ids)]
 
         # Append new rows to existing result set
-        new_ids.to_csv(
-            new_results_path,
-            mode="a",
-            header=not Path(new_results_path).is_file(),
+        new_ids.to_sql(
+            con=engine,
+            name="tweets",
+            if_exists="append",
             index=False,
-            sep="\t",
+            chunksize=50,
         )
 
         # Print logs
         print(f"Done! Wrote a total of {len(new_ids)} new row(s) for {company}")
 
-        # Upload to s3
-        upload_file(
-            "./results/twitter_searches_incremental.tsv",
-            "arno12-tweets",
-            "all-tweets/twitter_searches_incremental.tsv",
-        )
-
-        last_31days_results = pd.concat([last_31days_results, new_ids])
-        print(f"The new length of the last 31 days file is {len(last_31days_results)}")
-
         # Generate logs
         logs = pd.DataFrame(
             data=[[datetime.now().timestamp(), company, len(df.index)]],
-            columns=["imported_at", "company", "total_rows"],
+            columns=["timestamp", "company", "tweets"],
         )
 
-        logs.to_csv(
-            logs_path, mode="a", header=not Path(logs_path).is_file(), index=False
+        # Save logs to DB table
+        logs.to_sql(
+            con=engine,
+            name="tweet_logs",
+            if_exists="append",
+            index=False,
+            chunksize=50,
         )
-
-    last_31days_results.to_csv(
-        last_31days_results_path,
-        index=False,
-        sep="\t",
-    )
