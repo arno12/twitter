@@ -94,7 +94,6 @@ if __name__ == "__main__":
             name="tweets",
             if_exists="append",
             index=False,
-            method="multi",
             chunksize=50,
         )
 
@@ -113,6 +112,5 @@ if __name__ == "__main__":
             name="tweet_logs",
             if_exists="append",
             index=False,
-            method="multi",
             chunksize=50,
         )
