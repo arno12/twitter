@@ -7,8 +7,18 @@ import pandas as pd
 import tweepy
 from sqlalchemy import create_engine
 
-from settings import access_token, access_token_secret, consumer_key, consumer_secret
-
+from secrets import (
+    ACCESS_TOKEN,
+    AWS_ID,
+    AWS_S3_BUCKET,
+    AWS_S3_TWEETS_BACKUP_LOCATION,
+    AWS_SECRET,
+    mysql_db,
+    mysql_host,
+    mysql_port,
+    mysql_pwd,
+    mysql_user,
+)
 
 if __name__ == "__main__":
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
